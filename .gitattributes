@@ -1,0 +1,2 @@
+dlms/toolchain/*.tar.bz2 filter=lfs diff=lfs merge=lfs -text
+dlms-app/tags filter=lfs diff=lfs merge=lfs -text
