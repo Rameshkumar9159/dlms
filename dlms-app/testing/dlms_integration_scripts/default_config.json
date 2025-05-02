@@ -1,0 +1,38 @@
+{
+    "MQTT_HOST": "mqtt.example.com",
+    "MQTT_PORT": 1883,
+    "MQTT_USERNAME": "user",
+    "MQTT_PASSWORD": "pass",
+    "WIREPAS_GATEWAY": "gateway_id",
+    "WIREPAS_SINK": "sink_id",
+    "default_configuration": {
+        "key_encryption_key": "000102030405060708090A0B0C0D0E0F",
+        "authentication_key": "000102030405060708090A0B0C0D0E0F",
+        "block_cipher_key": "000102030405060708090A0B0C0D0E0F",
+        "mr_password": "123456",
+        "us_password": "abcdef",
+        "fu_password": "fedcba"
+    },
+    "meter_configuration": {
+        "key_encryption_key": "1112131415161718191A1B1C1D1E1F20",
+        "authentication_key": "1112131415161718191A1B1C1D1E1F20",
+        "block_cipher_key": "1112131415161718191A1B1C1D1E1F20",
+        "mr_password": "654321",
+        "us_password": "123abc",
+        "fu_password": "cba321"
+    },
+    "meters": {
+        "1": {
+            "manufacturer_flag": "FLA",
+            "meter_serial_number": "001122334455",
+            "meter_ic": 12345,
+            "same_auth_enc_keys": false
+        },
+        "2": {
+            "manufacturer_flag": "FLA",
+            "meter_serial_number": "66778899AABB",
+            "meter_ic": 67890,
+            "same_auth_enc_keys": true
+        }
+    }
+}

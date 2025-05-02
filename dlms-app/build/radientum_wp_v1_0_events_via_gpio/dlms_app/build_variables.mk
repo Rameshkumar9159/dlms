@@ -1,0 +1,6 @@
+bootloader_area_id=0x10000110
+bootloader_area_addr=0x08000000
+bootloader_area_length=0x00008000
+stack_area_id=0x00000110
+stack_area_addr=0x08008000
+stack_area_length=0x0003c000

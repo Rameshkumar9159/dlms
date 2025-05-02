@@ -1,0 +1,77 @@
+2025-04-22 16:25:56,547 | [INFO] dlms_network_interface.py:73:__init__:Destination endpoint for on demand requests set to 53
+2025-04-22 16:25:56,548 | [INFO] dlms_network_interface.py:87:_wait_for_connection:Waiting for the Wirepas network interface to be connected...
+2025-04-22 16:25:58,507 | [INFO] wirepas_network_interface.py:261:_on_connect_callback:..Connected to MQTT
+2025-04-22 16:25:58,553 | [INFO] dlms_network_interface.py:95:_wait_for_connection:The Wirepas network interface is connected.
+2025-04-22 16:25:58,556 | [INFO] meter.py:887:establish_AA_NIC:Establishing AA with 4262104928 with PC association.
+2025-04-22 16:25:58,557 | [INFO] meter.py:900:establish_AA_NIC:AARQ request is sent to 4262104928.
+2025-04-22 16:25:58,558 | [INFO] dlms_network_interface.py:146:send_request:TX: Sending a message of size 39 to node 0xFE0A8F60(4262104928) through gateway wirepas-gateway/sink1 and endpoints (2, 53)
+2025-04-22 16:25:58,558 | [DEBUG] dlms_network_interface.py:150:send_request:TX: 000100100064001f601da109060760857405080101be10040e01000000065f1f0400001e5dffff
+2025-04-22 16:25:58,560 | [DEBUG] dlms_network_interface.py:159:send_request:<WRAPPER len="39" >
+<TargetAddress Value="16" />
+<SourceAddress Value="100" />
+<PDU>
+<AssociationRequest>
+  <ApplicationContextName Value="LN" />
+  <InitiateRequest>
+    <ProposedDlmsVersionNumber Value="6" />
+    <ProposedConformance>
+      <ConformanceBit Name="BlockTransferWithGetOrRead" />
+      <ConformanceBit Name="BlockTransferWithSetOrWrite" />
+      <ConformanceBit Name="BlockTransferWithAction" />
+      <ConformanceBit Name="MultipleReferences" />
+      <ConformanceBit Name="Access" />
+      <ConformanceBit Name="Get" />
+      <ConformanceBit Name="Set" />
+      <ConformanceBit Name="SelectiveAccess" />
+      <ConformanceBit Name="Action" />
+    </ProposedConformance>
+    <ProposedMaxPduSize Value="65535" />
+  </InitiateRequest>
+</AssociationRequest>
+</PDU>
+</WRAPPER>
+
+2025-04-22 16:26:00,727 | [DEBUG] wirepas_network_interface.py:395:_on_downlink_data_received:Received message with id: 816490369541518321
+2025-04-22 16:26:02,510 | [ERROR] dlms_network_interface.py:171:send_request:A timeout occured when sending the message to the MQTT broker!
+2025-04-22 16:26:02,511 | [ERROR] meter.py:903:establish_AA_NIC:No valid response was received from the AARQ request.
+2025-04-22 16:26:02,511 | [INFO] meter.py:887:establish_AA_NIC:Establishing AA with 4262104928 with US association.
+2025-04-22 16:26:02,512 | [INFO] meter.py:900:establish_AA_NIC:AARQ request is sent to 4262104928.
+2025-04-22 16:26:02,520 | [INFO] dlms_network_interface.py:146:send_request:TX: Sending a message of size 103 to node 0xFE0A8F60(4262104928) through gateway wirepas-gateway/sink1 and endpoints (2, 53)
+2025-04-22 16:26:02,520 | [DEBUG] dlms_network_interface.py:150:send_request:TX: 000100300064005f605da109060760857405080103a60a0408434c4931323334358a0207808b0760857405080202ac128010dcf7b4bcc4dcdedbdca0620db2b4fd52be230421211f30000000002d1797b4149e8f405ab4fbae5ec66a5316ed0f8c2bf3c64cfd76
+2025-04-22 16:26:02,528 | [DEBUG] dlms_network_interface.py:159:send_request:<WRAPPER len="103" >
+<TargetAddress Value="48" />
+<SourceAddress Value="100" />
+<PDU>
+<AssociationRequest>
+  <ApplicationContextName Value="LN_WITH_CIPHERING" />
+  <CallingAPTitle Value="434C493132333435" />
+  <SenderACSERequirements Value="1" />
+  <MechanismName Value="High" />
+  <CallingAuthentication Value="DCF7B4BCC4DCDEDBDCA0620DB2B4FD52" />
+  <!--Decrypted data:
+    Security: Security.AUTHENTICATION_ENCRYPTION
+    Invocation Counter: 0
+    <InitiateRequest>
+      <ProposedDlmsVersionNumber Value="6" />
+      <ProposedConformance>
+        <ConformanceBit Name="BlockTransferWithGetOrRead" />
+        <ConformanceBit Name="BlockTransferWithSetOrWrite" />
+        <ConformanceBit Name="BlockTransferWithAction" />
+        <ConformanceBit Name="MultipleReferences" />
+        <ConformanceBit Name="Access" />
+        <ConformanceBit Name="Get" />
+        <ConformanceBit Name="Set" />
+        <ConformanceBit Name="SelectiveAccess" />
+        <ConformanceBit Name="Action" />
+      </ProposedConformance>
+      <ProposedMaxPduSize Value="65535" />
+    </InitiateRequest>
+  -->
+  <glo_InitiateRequest Value="30000000002D1797B4149E8F405AB4FBAE5EC66A5316ED0F8C2BF3C64CFD76" />
+</AssociationRequest>
+</PDU>
+</WRAPPER>
+
+2025-04-22 16:26:02,747 | [DEBUG] wirepas_network_interface.py:395:_on_downlink_data_received:Received message with id: 13386217551095379486
+2025-04-22 16:26:04,529 | [ERROR] dlms_network_interface.py:171:send_request:A timeout occured when sending the message to the MQTT broker!
+2025-04-22 16:26:04,529 | [ERROR] meter.py:903:establish_AA_NIC:No valid response was received from the AARQ request.

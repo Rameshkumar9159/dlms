@@ -1,0 +1,22 @@
+{
+    "files.associations": {
+        "uniqueid.h": "c",
+        "export_billing_profile.h": "c",
+        "nic_system_title.h": "c",
+        "app_persistent.h": "c",
+        "public_provisioning.h": "c",
+        "wirepas_com.h": "c",
+        "server_attribute_manager.h": "c",
+        "preamble_app.h": "c",
+        "node_configuration.h": "c",
+        "unistd.h": "c",
+        "stack_state.h": "c",
+        "array": "c",
+        "deque": "c",
+        "string": "c",
+        "unordered_map": "c",
+        "vector": "c",
+        "string_view": "c",
+        "initializer_list": "c"
+    }
+}

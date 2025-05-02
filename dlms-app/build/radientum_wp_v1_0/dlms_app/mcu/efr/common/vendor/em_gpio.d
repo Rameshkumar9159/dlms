@@ -1,0 +1,142 @@
+../build/radientum_wp_v1_0/dlms_app/mcu/efr/common/vendor/em_gpio.o: \
+ mcu/efr/common/vendor/em_gpio.c ../dlms_app/safemalloc/sfmalloc.h \
+ mcu/efr/common/vendor/em_gpio.h mcu/efr/common/vendor/em_device.h \
+ mcu/efr/common/vendor/efr32fg23/Include/em_device.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23b020f512im48.h \
+ mcu/common/cmsis/core_cm33.h mcu/common/cmsis/cmsis_version.h \
+ mcu/common/cmsis/cmsis_compiler.h mcu/common/cmsis/cmsis_gcc.h \
+ mcu/common/cmsis/mpu_armv8.h \
+ mcu/efr/common/vendor/efr32fg23/Include/system_efr32fg23.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_scratchpad.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_emu.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_cmu.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_hfrco.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_fsrco.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_dpll.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_lfxo.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_lfrco.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_ulfrco.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_msc.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_icache.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_prs.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_gpio.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_gpio_port.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_ldma.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_ldmaxbar.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_timer.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_usart.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_burtc.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_i2c.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_syscfg.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_buram.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_gpcrc.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_dcdc.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_mailbox.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_eusart.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_sysrtc.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_lcd.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_keyscan.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_mpahbram.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_lcdrf.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_pfmxpprf.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_aes.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_smu.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_letimer.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_iadc.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_acmp.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_amuxcp.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_vdac.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_pcnt.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_lesense.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_hfxo.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_wdog.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_semailbox.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_frc.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_agc.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_rfcrc.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_modem.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_synth.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_protimer.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_rac.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_eca.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_ecaifadc.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_bufc.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_devinfo.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_prs_signals.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_dma_descriptor.h \
+ mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_ldmaxbar_defines.h \
+ mcu/efr/common/vendor/em_assert.h mcu/efr/common/vendor/em_bus.h \
+ mcu/efr/common/vendor/em_core.h mcu/efr/common/vendor/em_common.h
+../dlms_app/safemalloc/sfmalloc.h:
+mcu/efr/common/vendor/em_gpio.h:
+mcu/efr/common/vendor/em_device.h:
+mcu/efr/common/vendor/efr32fg23/Include/em_device.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23b020f512im48.h:
+mcu/common/cmsis/core_cm33.h:
+mcu/common/cmsis/cmsis_version.h:
+mcu/common/cmsis/cmsis_compiler.h:
+mcu/common/cmsis/cmsis_gcc.h:
+mcu/common/cmsis/mpu_armv8.h:
+mcu/efr/common/vendor/efr32fg23/Include/system_efr32fg23.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_scratchpad.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_emu.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_cmu.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_hfrco.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_fsrco.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_dpll.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_lfxo.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_lfrco.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_ulfrco.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_msc.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_icache.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_prs.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_gpio.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_gpio_port.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_ldma.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_ldmaxbar.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_timer.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_usart.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_burtc.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_i2c.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_syscfg.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_buram.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_gpcrc.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_dcdc.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_mailbox.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_eusart.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_sysrtc.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_lcd.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_keyscan.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_mpahbram.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_lcdrf.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_pfmxpprf.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_aes.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_smu.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_letimer.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_iadc.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_acmp.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_amuxcp.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_vdac.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_pcnt.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_lesense.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_hfxo.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_wdog.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_semailbox.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_frc.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_agc.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_rfcrc.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_modem.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_synth.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_protimer.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_rac.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_eca.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_ecaifadc.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_bufc.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_devinfo.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_prs_signals.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_dma_descriptor.h:
+mcu/efr/common/vendor/efr32fg23/Include/efr32fg23_ldmaxbar_defines.h:
+mcu/efr/common/vendor/em_assert.h:
+mcu/efr/common/vendor/em_bus.h:
+mcu/efr/common/vendor/em_core.h:
+mcu/efr/common/vendor/em_common.h:

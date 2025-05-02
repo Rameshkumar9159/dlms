@@ -1,0 +1,1679 @@
+Archive member included to satisfy reference by file (symbol)
+
+../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_startup_efr32xg2.s.obj)
+                              (__startup__)
+../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(system_efr32fg23.c.obj)
+                              ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o (SystemHFRCODPLLClockGet)
+../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start.c.obj)
+                              ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_startup_efr32xg2.s.obj) (_bl_start)
+../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+                              ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start.c.obj) (Scratchpad_init)
+../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(memoryarea.c.obj)
+                              ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start.c.obj) (MemoryArea_init)
+../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_interface.c.obj)
+                              ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start.c.obj) (m_bl_interface)
+../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bootloader.c.obj)
+                              ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start.c.obj) (Bootloader_findVerifyScratchpad)
+../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_series2_config2_onwards.c.obj)
+                              ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start.c.obj) (bl_start_efr32_init)
+../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(watchdog.c.obj)
+                              ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(memoryarea.c.obj) (Watchdog_feed)
+../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(internal_flash.c.obj)
+                              ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(memoryarea.c.obj) (internalFlash_init)
+../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(crc.c.obj)
+                              ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj) (Crc_addByte)
+../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aes.c.obj)
+                              ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bootloader.c.obj) (aes_setupStream)
+../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aeshw_mbed.c.obj)
+                              ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bootloader.c.obj) (aes_crypto128Ctr)
+../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(puff.c.obj)
+                              ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bootloader.c.obj) (puff)
+../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_scratchpad_header.c.obj)
+                              ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bootloader.c.obj) (Bootloader_verifyFileHeader)
+../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_crypto.c.obj)
+                              ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bootloader.c.obj) (Bootloader_authenticateScratchpad)
+../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_code_protection_series2.c.obj)
+                              ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_series2_config2_onwards.c.obj) (bl_start_efr32_apply_code_protection)
+../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_wdog.c.obj)
+                              ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(watchdog.c.obj) (WDOGn_Feed)
+../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager.c.obj)
+                              ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_code_protection_series2.c.obj) (sl_se_init)
+../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_protocol_crypto_radioaes.c.obj)
+                              ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aeshw_mbed.c.obj) (sli_aes_crypt_ecb_radio)
+../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_radioaes_management.c.obj)
+                              ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_protocol_crypto_radioaes.c.obj) (sli_radioaes_acquire)
+../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+                              ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_code_protection_series2.c.obj) (sl_se_apply_debug_lock)
+../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_se.c.obj)
+                              ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj) (SE_addDataInput)
+/home/ramesh/srikanth_sir/work_folder/dlms/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libg_nano.a(lib_a-memcmp.o)
+                              ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj) (memcmp)
+/home/ramesh/srikanth_sir/work_folder/dlms/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libg_nano.a(lib_a-memcpy-stub.o)
+                              ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start.c.obj) (memcpy)
+/home/ramesh/srikanth_sir/work_folder/dlms/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libg_nano.a(lib_a-memset.o)
+                              ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start.c.obj) (memset)
+/home/ramesh/srikanth_sir/work_folder/dlms/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libg_nano.a(lib_a-setjmp.o)
+                              ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(puff.c.obj) (setjmp)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/efr32/hal/power.o
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/efr32/hal/power.o
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/efr32/hal/power.o
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/efr32/hal/hal.o
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/efr32/hal/hal.o
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/efr32/hal/hal.o
+ .text.HAL_Open
+                0x0000000000000000       0x18 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/efr32/hal/hal.o
+ .bss.m_opened  0x0000000000000000        0x1 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/efr32/hal/hal.o
+ .debug_info    0x0000000000000000       0xb5 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/efr32/hal/hal.o
+ .debug_abbrev  0x0000000000000000       0x77 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/efr32/hal/hal.o
+ .debug_aranges
+                0x0000000000000000       0x20 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/efr32/hal/hal.o
+ .debug_ranges  0x0000000000000000       0x10 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/efr32/hal/hal.o
+ .debug_line    0x0000000000000000       0x7b ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/efr32/hal/hal.o
+ .debug_str     0x0000000000000000      0x1b4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/efr32/hal/hal.o
+ .comment       0x0000000000000000       0x4a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/efr32/hal/hal.o
+ .debug_frame   0x0000000000000000       0x28 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/efr32/hal/hal.o
+ .ARM.attributes
+                0x0000000000000000       0x38 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/efr32/hal/hal.o
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .text.EMU_EM23Init
+                0x0000000000000000       0x14 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .text.EMU_EM23PresleepHook
+                0x0000000000000000        0x2 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .text.EMU_EFPEM23PresleepHook
+                0x0000000000000000        0x2 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .text.EMU_EM23PostsleepHook
+                0x0000000000000000        0x2 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .text.EMU_EFPEM23PostsleepHook
+                0x0000000000000000        0x2 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .text.EMU_EnterEM2
+                0x0000000000000000       0x30 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .text.EMU_EnterEM3
+                0x0000000000000000       0x28 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .text.EMU_Save
+                0x0000000000000000        0x2 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .text.EMU_Restore
+                0x0000000000000000        0x2 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .text.EMU_EM4Init
+                0x0000000000000000       0x12 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .text.EMU_EM4PresleepHook
+                0x0000000000000000        0x2 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .text.EMU_EFPEM4PresleepHook
+                0x0000000000000000        0x2 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .text.EMU_MemPwrDown
+                0x0000000000000000        0x2 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .text.EMU_RamPowerDown
+                0x0000000000000000       0x64 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .text.EMU_RamPowerUp
+                0x0000000000000000       0x18 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .text.EMU_UpdateOscConfig
+                0x0000000000000000        0x2 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .text.EMU_EM01Init
+                0x0000000000000000       0x14 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .text.EMU_EnterEM4
+                0x0000000000000000       0x46 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .text.EMU_EnterEM4H
+                0x0000000000000000        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .text.EMU_EnterEM4S
+                0x0000000000000000        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .text.EMU_DCDCInit
+                0x0000000000000000       0x6c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .text.EMU_EM01PeakCurrentSet
+                0x0000000000000000       0x5c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .text.EMU_DCDCSetPFMXModePeakCurrent
+                0x0000000000000000       0x5c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .text.EMU_DCDCSetPFMXTimeoutMaxCtrl
+                0x0000000000000000       0x54 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .text.EMU_TemperatureGet
+                0x0000000000000000       0x28 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .text.EMU_EFPDirectModeEnable
+                0x0000000000000000       0x18 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .text.EMU_EFPDriveDecoupleSet
+                0x0000000000000000       0x18 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .text.EMU_EFPDriveDvddSet
+                0x0000000000000000       0x18 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.BUS_RegMaskedWrite
+                0x0000000000000000       0x22 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.CMU_CalibrateConfig
+                0x0000000000000000       0xb0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.CMU_CalibrateCountGet
+                0x0000000000000000       0x1c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.CMU_Calibrate
+                0x0000000000000000       0x1c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.CMU_ClkOutPinConfig
+                0x0000000000000000       0xa4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.CMU_LF_ClockPrecisionGet
+                0x0000000000000000       0x18 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.CMU_HFXOInit
+                0x0000000000000000      0x178 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.CMU_HFXOStartCrystalSharingLeader
+                0x0000000000000000       0x6c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.CMU_HFXOCrystalSharingFollowerInit
+                0x0000000000000000       0xa8 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.CMU_HFXOCTuneDeltaSet
+                0x0000000000000000        0xc ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.CMU_HFXOCTuneDeltaGet
+                0x0000000000000000        0xc ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.CMU_LFXOInit
+                0x0000000000000000       0x78 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.CMU_LFXOPrecisionSet
+                0x0000000000000000        0xc ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.CMU_OscillatorTuningGet
+                0x0000000000000000       0x58 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.CMU_OscillatorTuningSet
+                0x0000000000000000       0xb4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.CMU_DPLLLock
+                0x0000000000000000      0x198 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.CMU_PCNTClockExternalSet
+                0x0000000000000000       0x14 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.CMU_HFRCOEM23BandGet
+                0x0000000000000000        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.CMU_HFRCOEM23BandSet
+                0x0000000000000000       0xd0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .data.ctuneDelta
+                0x0000000000000000        0x1 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .data.lfxo_precision
+                0x0000000000000000        0x2 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .rodata.CSWTCH.54
+                0x0000000000000000       0x11 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .rodata.hfrcoCalTable
+                0x0000000000000000      0x190 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+ .text.__NVIC_GetPriority
+                0x0000000000000000       0x24 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+ .text.CORE_CriticalDisableIrq
+                0x0000000000000000        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+ .text.CORE_CriticalEnableIrq
+                0x0000000000000000        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+ .text.CORE_YieldCritical
+                0x0000000000000000       0x12 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+ .text.CORE_AtomicDisableIrq
+                0x0000000000000000        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+ .text.CORE_AtomicEnableIrq
+                0x0000000000000000        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+ .text.CORE_YieldAtomic
+                0x0000000000000000        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+ .text.CORE_EnterNvicMask
+                0x0000000000000000       0x2c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+ .text.CORE_NvicDisableMask
+                0x0000000000000000       0x20 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+ .text.CORE_NvicEnableMask
+                0x0000000000000000       0x20 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+ .text.CORE_YieldNvicMask
+                0x0000000000000000       0x48 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+ .text.CORE_NvicMaskSetIRQ
+                0x0000000000000000       0x18 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+ .text.CORE_NvicMaskClearIRQ
+                0x0000000000000000       0x1a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+ .text.CORE_InIrqContext
+                0x0000000000000000       0x14 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+ .text.CORE_IrqIsDisabled
+                0x0000000000000000        0xa ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+ .text.CORE_GetNvicEnabledMask
+                0x0000000000000000       0x20 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+ .text.CORE_GetNvicMaskDisableState
+                0x0000000000000000       0x38 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+ .text.CORE_NvicIRQDisabled
+                0x0000000000000000       0x1c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+ .text.CORE_IrqIsBlocked
+                0x0000000000000000       0x54 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+ .text.CORE_GetNvicRamTableHandler
+                0x0000000000000000       0x10 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+ .text.CORE_SetNvicRamTableHandler
+                0x0000000000000000       0x10 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+ .text.CORE_InitNvicVectorTable
+                0x0000000000000000       0x44 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_gpio.o
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_gpio.o
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_gpio.o
+ .text.BUS_RegMaskedWrite
+                0x0000000000000000       0x22 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_gpio.o
+ .text.GPIO_DbgLocationSet
+                0x0000000000000000        0x2 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_gpio.o
+ .text.GPIO_ExtIntConfig
+                0x0000000000000000       0xb0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_gpio.o
+ .text.GPIO_PinModeSet
+                0x0000000000000000       0x84 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_gpio.o
+ .text.GPIO_PinModeGet
+                0x0000000000000000       0x30 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_gpio.o
+ .text.GPIO_EM4EnablePinWakeup
+                0x0000000000000000       0x50 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_gpio.o
+ .text.GPIO_EM4WUExtIntConfig
+                0x0000000000000000       0x3c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_gpio.o
+ .debug_info    0x0000000000000000     0x250e ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_gpio.o
+ .debug_abbrev  0x0000000000000000      0x35c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_gpio.o
+ .debug_loc     0x0000000000000000      0x742 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_gpio.o
+ .debug_aranges
+                0x0000000000000000       0x50 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_gpio.o
+ .debug_ranges  0x0000000000000000      0x108 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_gpio.o
+ .debug_line    0x0000000000000000      0x52a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_gpio.o
+ .debug_str     0x0000000000000000     0x16e9 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_gpio.o
+ .comment       0x0000000000000000       0x4a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_gpio.o
+ .debug_frame   0x0000000000000000       0xc4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_gpio.o
+ .ARM.attributes
+                0x0000000000000000       0x38 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_gpio.o
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/early_init.o
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/early_init.o
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/early_init.o
+ .text.first_boot
+                0x0000000000000000        0x2 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/early_init.o
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/external_flash.o
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/external_flash.o
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/external_flash.o
+ .text.externalFlash_init
+                0x0000000000000000        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/external_flash.o
+ .text.externalFlash_startRead
+                0x0000000000000000        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/external_flash.o
+ .text.externalFlash_startWrite
+                0x0000000000000000        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/external_flash.o
+ .text.externalFlash_startErase
+                0x0000000000000000        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/external_flash.o
+ .text.externalFlash_isBusy
+                0x0000000000000000        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/external_flash.o
+ .text.externalFlash_getInfo
+                0x0000000000000000        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/external_flash.o
+ .debug_info    0x0000000000000000      0x2b6 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/external_flash.o
+ .debug_abbrev  0x0000000000000000      0x158 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/external_flash.o
+ .debug_loc     0x0000000000000000       0x6f ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/external_flash.o
+ .debug_aranges
+                0x0000000000000000       0x40 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/external_flash.o
+ .debug_ranges  0x0000000000000000       0x30 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/external_flash.o
+ .debug_line    0x0000000000000000      0x257 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/external_flash.o
+ .debug_str     0x0000000000000000      0x3ab ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/external_flash.o
+ .comment       0x0000000000000000       0x4a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/external_flash.o
+ .debug_frame   0x0000000000000000       0x70 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/external_flash.o
+ .ARM.attributes
+                0x0000000000000000       0x38 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/external_flash.o
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/bl_hardware.o
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/bl_hardware.o
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/bl_hardware.o
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/../board/radientum_wp_v1_0/bootloader/external_flash_mx25r8035f.o
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/../board/radientum_wp_v1_0/bootloader/external_flash_mx25r8035f.o
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/../board/radientum_wp_v1_0/bootloader/external_flash_mx25r8035f.o
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/board/board_init.o
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/board/board_init.o
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/board/board_init.o
+ .text.Board_init
+                0x0000000000000000        0xc ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/board/board_init.o
+ .debug_info    0x0000000000000000       0x67 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/board/board_init.o
+ .debug_abbrev  0x0000000000000000       0x4e ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/board/board_init.o
+ .debug_aranges
+                0x0000000000000000       0x20 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/board/board_init.o
+ .debug_ranges  0x0000000000000000       0x10 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/board/board_init.o
+ .debug_line    0x0000000000000000       0x6b ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/board/board_init.o
+ .debug_str     0x0000000000000000      0x133 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/board/board_init.o
+ .comment       0x0000000000000000       0x4a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/board/board_init.o
+ .debug_frame   0x0000000000000000       0x28 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/board/board_init.o
+ .ARM.attributes
+                0x0000000000000000       0x38 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/board/board_init.o
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/hal_api/hal_init.o
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/hal_api/hal_init.o
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/hal_api/hal_init.o
+ .text.Hal_init
+                0x0000000000000000        0x2 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/hal_api/hal_init.o
+ .debug_info    0x0000000000000000       0x38 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/hal_api/hal_init.o
+ .debug_abbrev  0x0000000000000000       0x2e ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/hal_api/hal_init.o
+ .debug_aranges
+                0x0000000000000000       0x20 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/hal_api/hal_init.o
+ .debug_ranges  0x0000000000000000       0x10 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/hal_api/hal_init.o
+ .debug_line    0x0000000000000000       0x4b ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/hal_api/hal_init.o
+ .debug_str     0x0000000000000000      0x118 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/hal_api/hal_init.o
+ .comment       0x0000000000000000       0x4a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/hal_api/hal_init.o
+ .debug_frame   0x0000000000000000       0x20 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/hal_api/hal_init.o
+ .ARM.attributes
+                0x0000000000000000       0x38 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/hal_api/hal_init.o
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_startup_efr32xg2.s.obj)
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_startup_efr32xg2.s.obj)
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_startup_efr32xg2.s.obj)
+ .ARM.attributes
+                0x0000000000000000       0x24 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_startup_efr32xg2.s.obj)
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(system_efr32fg23.c.obj)
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(system_efr32fg23.c.obj)
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(system_efr32fg23.c.obj)
+ .text.SystemHFXOClockSet
+                0x0000000000000000       0x20 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(system_efr32fg23.c.obj)
+ .text.SystemLFXOClockSet
+                0x0000000000000000        0xc ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(system_efr32fg23.c.obj)
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start.c.obj)
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start.c.obj)
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start.c.obj)
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(memoryarea.c.obj)
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(memoryarea.c.obj)
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(memoryarea.c.obj)
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_interface.c.obj)
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_interface.c.obj)
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_interface.c.obj)
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bootloader.c.obj)
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bootloader.c.obj)
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bootloader.c.obj)
+ .text.assert_failed
+                0x0000000000000000        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bootloader.c.obj)
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_series2_config2_onwards.c.obj)
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_series2_config2_onwards.c.obj)
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_series2_config2_onwards.c.obj)
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(watchdog.c.obj)
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(watchdog.c.obj)
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(watchdog.c.obj)
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(internal_flash.c.obj)
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(internal_flash.c.obj)
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(internal_flash.c.obj)
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(crc.c.obj)
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(crc.c.obj)
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(crc.c.obj)
+ .text.Crc_fromBuffer
+                0x0000000000000000       0x1a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(crc.c.obj)
+ .text.Crc_fromBuffer32
+                0x0000000000000000       0x34 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(crc.c.obj)
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aes.c.obj)
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aes.c.obj)
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aes.c.obj)
+ .text.aes_crypto128EcbBlock
+                0x0000000000000000       0x28 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aes.c.obj)
+ .data.aes_plaintext_ff
+                0x0000000000000000       0x10 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aes.c.obj)
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aeshw_mbed.c.obj)
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aeshw_mbed.c.obj)
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aeshw_mbed.c.obj)
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(puff.c.obj)
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(puff.c.obj)
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(puff.c.obj)
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_scratchpad_header.c.obj)
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_scratchpad_header.c.obj)
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_scratchpad_header.c.obj)
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_crypto.c.obj)
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_crypto.c.obj)
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_crypto.c.obj)
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_code_protection_series2.c.obj)
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_code_protection_series2.c.obj)
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_code_protection_series2.c.obj)
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_wdog.c.obj)
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_wdog.c.obj)
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_wdog.c.obj)
+ .text.WDOGn_Enable
+                0x0000000000000000       0x28 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_wdog.c.obj)
+ .text.WDOGn_Init
+                0x0000000000000000       0x86 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_wdog.c.obj)
+ .text.WDOGn_Lock
+                0x0000000000000000        0x6 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_wdog.c.obj)
+ .text.WDOGn_SyncWait
+                0x0000000000000000        0xc ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_wdog.c.obj)
+ .text.WDOGn_Unlock
+                0x0000000000000000        0x8 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_wdog.c.obj)
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager.c.obj)
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager.c.obj)
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager.c.obj)
+ .text.sli_se_lock_acquire
+                0x0000000000000000       0x10 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager.c.obj)
+ .text.sli_se_lock_release
+                0x0000000000000000       0x10 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager.c.obj)
+ .text.sl_se_set_yield
+                0x0000000000000000       0x10 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager.c.obj)
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_protocol_crypto_radioaes.c.obj)
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_protocol_crypto_radioaes.c.obj)
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_protocol_crypto_radioaes.c.obj)
+ .rodata.aes_ccm_radio.str1.1
+                0x0000000000000000       0x11 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_protocol_crypto_radioaes.c.obj)
+ .text.aes_ccm_radio
+                0x0000000000000000      0x1dc ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_protocol_crypto_radioaes.c.obj)
+ .text.aes_ccm_ble
+                0x0000000000000000       0x64 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_protocol_crypto_radioaes.c.obj)
+ .text.sli_aes_crypt_ctr_radio
+                0x0000000000000000       0xb8 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_protocol_crypto_radioaes.c.obj)
+ .text.sli_aes_cmac_radio
+                0x0000000000000000       0x98 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_protocol_crypto_radioaes.c.obj)
+ .text.sli_ccm_auth_decrypt_ble
+                0x0000000000000000       0x1e ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_protocol_crypto_radioaes.c.obj)
+ .text.sli_ccm_encrypt_and_tag_ble
+                0x0000000000000000       0x1e ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_protocol_crypto_radioaes.c.obj)
+ .text.sli_ccm_zigbee
+                0x0000000000000000       0x7a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_protocol_crypto_radioaes.c.obj)
+ .text.sli_process_ble_rpa
+                0x0000000000000000      0x120 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_protocol_crypto_radioaes.c.obj)
+ .rodata.aes_ccm_config_decrypt
+                0x0000000000000000        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_protocol_crypto_radioaes.c.obj)
+ .rodata.aes_ccm_config_encrypt
+                0x0000000000000000        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_protocol_crypto_radioaes.c.obj)
+ .rodata.aes_rpa_config.0
+                0x0000000000000000        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_protocol_crypto_radioaes.c.obj)
+ .rodata.zero.1
+                0x0000000000000000        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_protocol_crypto_radioaes.c.obj)
+ .rodata.zeros  0x0000000000000000        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_protocol_crypto_radioaes.c.obj)
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_radioaes_management.c.obj)
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_radioaes_management.c.obj)
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_radioaes_management.c.obj)
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .text.sl_se_check_se_image
+                0x0000000000000000       0x2c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .text.sl_se_apply_se_image
+                0x0000000000000000       0x2c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .text.sl_se_get_upgrade_status_se_image
+                0x0000000000000000       0x50 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .text.sl_se_check_host_image
+                0x0000000000000000       0x38 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .text.sl_se_apply_host_image
+                0x0000000000000000       0x38 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .text.sl_se_get_upgrade_status_host_image
+                0x0000000000000000       0x50 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .text.sl_se_init_otp_key
+                0x0000000000000000       0xa4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .text.sl_se_read_pubkey
+                0x0000000000000000       0x70 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .text.sl_se_get_se_version
+                0x0000000000000000       0x3c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .text.sl_se_init_otp
+                0x0000000000000000      0x138 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .text.sl_se_read_otp
+                0x0000000000000000       0xb8 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .text.sl_se_write_user_data
+                0x0000000000000000       0x50 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .text.sl_se_erase_user_data
+                0x0000000000000000       0x30 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .text.sl_se_get_status
+                0x0000000000000000       0x8c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .text.sl_se_get_serialnumber
+                0x0000000000000000       0x38 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .text.sl_se_get_otp_version
+                0x0000000000000000       0x3c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .text.sl_se_enable_secure_debug
+                0x0000000000000000       0x1c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .text.sl_se_disable_secure_debug
+                0x0000000000000000       0x1c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .text.sl_se_set_debug_options
+                0x0000000000000000       0x54 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .text.sl_se_erase_device
+                0x0000000000000000       0x1c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .text.sl_se_disable_device_erase
+                0x0000000000000000       0x1c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .text.sl_se_get_challenge
+                0x0000000000000000       0x3c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .text.sl_se_roll_challenge
+                0x0000000000000000       0x3c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .text.sl_se_open_debug
+                0x0000000000000000       0x7c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .text.sl_se_disable_tamper
+                0x0000000000000000       0x46 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .text.sl_se_read_cert_size
+                0x0000000000000000       0x3c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .text.sl_se_read_cert
+                0x0000000000000000       0x50 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .rodata        0x0000000000000000        0xc ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .bss.otp_tamper_settings.0
+                0x0000000000000000       0x14 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .rodata.CSWTCH.36
+                0x0000000000000000        0x6 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .text          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_se.c.obj)
+ .data          0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_se.c.obj)
+ .bss           0x0000000000000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_se.c.obj)
+ .text.SE_readCommandResponse
+                0x0000000000000000       0x12 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_se.c.obj)
+ .text.SE_addDataInput
+                0x0000000000000000       0x14 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_se.c.obj)
+ .text.SE_addParameter
+                0x0000000000000000       0x12 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_se.c.obj)
+ .text.SE_initPubkey
+                0x0000000000000000       0x78 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_se.c.obj)
+ .text.SE_writeUserData
+                0x0000000000000000       0x48 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_se.c.obj)
+ .text.SE_eraseUserData
+                0x0000000000000000       0x30 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_se.c.obj)
+ .text.SE_getStatus
+                0x0000000000000000       0x80 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_se.c.obj)
+ .text.SE_serialNumber
+                0x0000000000000000       0x38 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_se.c.obj)
+ .text.SE_readPubkey
+                0x0000000000000000       0x4c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_se.c.obj)
+ .text.SE_initOTP
+                0x0000000000000000      0x100 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_se.c.obj)
+ .text.SE_debugLockStatus
+                0x0000000000000000       0x58 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_se.c.obj)
+ .text.SE_debugLockApply
+                0x0000000000000000       0x28 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_se.c.obj)
+ .text.SE_debugSecureEnable
+                0x0000000000000000       0x28 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_se.c.obj)
+ .text.SE_debugSecureDisable
+                0x0000000000000000       0x28 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_se.c.obj)
+ .text.SE_deviceErase
+                0x0000000000000000       0x28 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_se.c.obj)
+ .text.SE_deviceEraseDisable
+                0x0000000000000000       0x28 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_se.c.obj)
+ .rodata        0x0000000000000000        0xc ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_se.c.obj)
+ .data.reservedSettings.0
+                0x0000000000000000       0x14 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_se.c.obj)
+ .text          0x0000000000000000        0x0 /home/ramesh/srikanth_sir/work_folder/dlms/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libg_nano.a(lib_a-memcmp.o)
+ .data          0x0000000000000000        0x0 /home/ramesh/srikanth_sir/work_folder/dlms/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libg_nano.a(lib_a-memcmp.o)
+ .bss           0x0000000000000000        0x0 /home/ramesh/srikanth_sir/work_folder/dlms/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libg_nano.a(lib_a-memcmp.o)
+ .text          0x0000000000000000        0x0 /home/ramesh/srikanth_sir/work_folder/dlms/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libg_nano.a(lib_a-memcpy-stub.o)
+ .data          0x0000000000000000        0x0 /home/ramesh/srikanth_sir/work_folder/dlms/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libg_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x0000000000000000        0x0 /home/ramesh/srikanth_sir/work_folder/dlms/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libg_nano.a(lib_a-memcpy-stub.o)
+ .text          0x0000000000000000        0x0 /home/ramesh/srikanth_sir/work_folder/dlms/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libg_nano.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /home/ramesh/srikanth_sir/work_folder/dlms/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libg_nano.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /home/ramesh/srikanth_sir/work_folder/dlms/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libg_nano.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /home/ramesh/srikanth_sir/work_folder/dlms/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libg_nano.a(lib_a-setjmp.o)
+ .bss           0x0000000000000000        0x0 /home/ramesh/srikanth_sir/work_folder/dlms/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libg_nano.a(lib_a-setjmp.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+BOOTLOADER       0x0000000008000000 0x0000000000007c00 xr
+BLCONFIG         0x0000000008007c00 0x0000000000000400 xr
+BL_STATIC        0x0000000020000018 0x0000000000000400 xrw
+RAM              0x0000000020001500 0x000000000000eb00 xrw
+INVALID          0x00000000ffffffff 0x0000000000000000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/ramesh/srikanth_sir/work_folder/dlms/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/libgcc.a
+LOAD /home/ramesh/srikanth_sir/work_folder/dlms/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libnosys.a
+LOAD ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/efr32/hal/power.o
+LOAD ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/efr32/hal/hal.o
+LOAD ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+LOAD ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+LOAD ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+LOAD ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_gpio.o
+LOAD ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/early_init.o
+LOAD ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/external_flash.o
+LOAD ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/bl_hardware.o
+LOAD ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/../board/radientum_wp_v1_0/bootloader/external_flash_mx25r8035f.o
+LOAD ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/board/board_init.o
+LOAD ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/hal_api/hal_init.o
+LOAD ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a
+LOAD ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a
+                0x0000000000008000                __bl_length__ = 0x8000
+
+.text           0x0000000008000000     0x3f68
+ *(.Vectors)
+ .Vectors       0x0000000008000000      0x400 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_startup_efr32xg2.s.obj)
+                0x0000000008000000                __vector_table__
+                0x0000000008000400                __bl_version__ = .
+ *(.BootloaderVersion)
+ .BootloaderVersion
+                0x0000000008000400        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_startup_efr32xg2.s.obj)
+                0x0000000008000400                __bootloader_version__
+ *(.romtext)
+ .romtext       0x0000000008000404       0x20 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_startup_efr32xg2.s.obj)
+                0x0000000008000404                __startup__
+                0x000000000800040c                __system_reset__
+ .romtext       0x0000000008000424       0x84 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start.c.obj)
+                0x0000000008000424                _bl_start
+ *(.text.*)
+ .text.Power_enableDCDC
+                0x00000000080004a8        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/efr32/hal/power.o
+                0x00000000080004a8                Power_enableDCDC
+ .text.EMU_DCDCSync
+                0x00000000080004ac       0x10 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .text.EMU_EFPEM01VScale
+                0x00000000080004bc        0x2 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+                0x00000000080004bc                EMU_EFPEM01VScale
+ *fill*         0x00000000080004be        0x2 
+ .text.EMU_VScaleEM01
+                0x00000000080004c0       0x80 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+                0x00000000080004c0                EMU_VScaleEM01
+ .text.EMU_VScaleEM01ByClock
+                0x0000000008000540       0x30 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+                0x0000000008000540                EMU_VScaleEM01ByClock
+ .text.EMU_DCDCModeSet
+                0x0000000008000570       0x68 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+                0x0000000008000570                EMU_DCDCModeSet
+ .text.EMU_DCDCPowerOff
+                0x00000000080005d8        0xc ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+                0x00000000080005d8                EMU_DCDCPowerOff
+ .text.EMU_VScaleGet
+                0x00000000080005e4       0x16 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ *fill*         0x00000000080005fa        0x2 
+ .text.HFRCODPLLDevinfoGet
+                0x00000000080005fc       0xf4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.em01GrpaClkGet
+                0x00000000080006f0       0x64 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.em01GrpcClkGet
+                0x0000000008000754       0x50 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.iadcClkGet
+                0x00000000080007a4       0x54 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.eusart0ClkGet
+                0x00000000080007f8       0x60 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.em23GrpaClkGet
+                0x0000000008000858       0x48 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.vdac0ClkGet
+                0x00000000080008a0       0x64 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.wdog0ClkGet
+                0x0000000008000904       0x54 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.wdog1ClkGet
+                0x0000000008000958       0x54 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.sysrtcClkGet
+                0x00000000080009ac       0x48 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.lcdClkGet
+                0x00000000080009f4       0x48 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.em4GrpaClkGet
+                0x0000000008000a3c       0x48 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.CMU_ClockDivGet
+                0x0000000008000a84       0x54 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+                0x0000000008000a84                CMU_ClockDivGet
+ .text.flashWaitStateControl
+                0x0000000008000ad8       0x4c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.waitStateMax
+                0x0000000008000b24       0x10 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.CMU_ClockEnable
+                0x0000000008000b34       0x38 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+                0x0000000008000b34                CMU_ClockEnable
+ .text.CMU_ClockFreqGet
+                0x0000000008000b6c      0x27c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+                0x0000000008000b6c                CMU_ClockFreqGet
+ .text.rhclkPrescOptimize
+                0x0000000008000de8       0x20 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.CMU_ClockSelectGet
+                0x0000000008000e08      0x2a8 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+                0x0000000008000e08                CMU_ClockSelectGet
+ .text.CMU_HFRCODPLLBandGet
+                0x00000000080010b0        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+                0x00000000080010b0                CMU_HFRCODPLLBandGet
+ .text.CMU_UpdateWaitStates
+                0x00000000080010b4        0xc ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+                0x00000000080010b4                CMU_UpdateWaitStates
+ .text.CMU_ClockDivSet
+                0x00000000080010c0       0xac ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+                0x00000000080010c0                CMU_ClockDivSet
+ .text.pclkDivMax
+                0x000000000800116c        0xa ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ *fill*         0x0000000008001176        0x2 
+ .text.pclkDivOptimize
+                0x0000000008001178       0x24 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .text.CMU_ClockSelectSet
+                0x000000000800119c      0x48c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+                0x000000000800119c                CMU_ClockSelectSet
+ .text.CMU_HFRCODPLLBandSet
+                0x0000000008001628       0xe4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+                0x0000000008001628                CMU_HFRCODPLLBandSet
+ .text.CORE_EnterCritical
+                0x000000000800170c        0x8 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+                0x000000000800170c                CORE_EnterCritical
+ .text.CORE_ExitCritical
+                0x0000000008001714        0x6 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+                0x0000000008001714                CORE_ExitCritical
+ .text.CORE_EnterAtomic
+                0x000000000800171a        0x8 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+                0x000000000800171a                CORE_EnterAtomic
+ .text.CORE_ExitAtomic
+                0x0000000008001722        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+                0x0000000008001722                CORE_ExitAtomic
+ .text.early_init
+                0x0000000008001726       0x10 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/early_init.o
+                0x0000000008001726                early_init
+ *fill*         0x0000000008001736        0x2 
+ .text.Hardware_getCapabilities
+                0x0000000008001738        0x8 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/bl_hardware.o
+                0x0000000008001738                Hardware_getCapabilities
+ .text.ext_flash_set_cs_active
+                0x0000000008001740       0x14 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/../board/radientum_wp_v1_0/bootloader/external_flash_mx25r8035f.o
+ .text.ext_flash_set_cs_inactive
+                0x0000000008001754       0x14 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/../board/radientum_wp_v1_0/bootloader/external_flash_mx25r8035f.o
+ .text.ext_flash_spi_transfer
+                0x0000000008001768       0x1c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/../board/radientum_wp_v1_0/bootloader/external_flash_mx25r8035f.o
+ .text.externalFlash_isBusy
+                0x0000000008001784       0x38 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/../board/radientum_wp_v1_0/bootloader/external_flash_mx25r8035f.o
+                0x0000000008001784                externalFlash_isBusy
+ .text.ext_flash_write_enable
+                0x00000000080017bc       0x38 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/../board/radientum_wp_v1_0/bootloader/external_flash_mx25r8035f.o
+ .text.externalFlash_init
+                0x00000000080017f4      0x224 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/../board/radientum_wp_v1_0/bootloader/external_flash_mx25r8035f.o
+                0x00000000080017f4                externalFlash_init
+ .text.reconfigure_usart_block_for_spi
+                0x0000000008001a18       0x18 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/../board/radientum_wp_v1_0/bootloader/external_flash_mx25r8035f.o
+ .text.externalFlash_startRead
+                0x0000000008001a30       0x80 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/../board/radientum_wp_v1_0/bootloader/external_flash_mx25r8035f.o
+                0x0000000008001a30                externalFlash_startRead
+ .text.externalFlash_startWrite
+                0x0000000008001ab0       0x98 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/../board/radientum_wp_v1_0/bootloader/external_flash_mx25r8035f.o
+                0x0000000008001ab0                externalFlash_startWrite
+ .text.externalFlash_startErase
+                0x0000000008001b48       0x8c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/../board/radientum_wp_v1_0/bootloader/external_flash_mx25r8035f.o
+                0x0000000008001b48                externalFlash_startErase
+ .text.externalFlash_getInfo
+                0x0000000008001bd4       0x2c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/../board/radientum_wp_v1_0/bootloader/external_flash_mx25r8035f.o
+                0x0000000008001bd4                externalFlash_getInfo
+ .text.SystemInit
+                0x0000000008001c00       0x1c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(system_efr32fg23.c.obj)
+                0x0000000008001c00                SystemInit
+ .text.SystemHFRCODPLLClockGet
+                0x0000000008001c1c        0xc ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(system_efr32fg23.c.obj)
+                0x0000000008001c1c                SystemHFRCODPLLClockGet
+ .text.SystemHFRCODPLLClockSet
+                0x0000000008001c28        0xc ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(system_efr32fg23.c.obj)
+                0x0000000008001c28                SystemHFRCODPLLClockSet
+ .text.SystemSYSCLKGet
+                0x0000000008001c34       0x34 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(system_efr32fg23.c.obj)
+                0x0000000008001c34                SystemSYSCLKGet
+ .text.SystemHCLKGet
+                0x0000000008001c68       0x24 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(system_efr32fg23.c.obj)
+                0x0000000008001c68                SystemHCLKGet
+ .text.SystemMaxCoreClockGet
+                0x0000000008001c8c        0x8 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(system_efr32fg23.c.obj)
+                0x0000000008001c8c                SystemMaxCoreClockGet
+ .text.SystemHFXOClockGet
+                0x0000000008001c94        0xc ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(system_efr32fg23.c.obj)
+                0x0000000008001c94                SystemHFXOClockGet
+ .text.SystemCLKIN0Get
+                0x0000000008001ca0        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(system_efr32fg23.c.obj)
+                0x0000000008001ca0                SystemCLKIN0Get
+ .text.SystemFSRCOClockGet
+                0x0000000008001ca4        0x8 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(system_efr32fg23.c.obj)
+                0x0000000008001ca4                SystemFSRCOClockGet
+ .text.SystemHFRCOEM23ClockGet
+                0x0000000008001cac       0x84 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(system_efr32fg23.c.obj)
+                0x0000000008001cac                SystemHFRCOEM23ClockGet
+ .text.SystemLFRCOClockGet
+                0x0000000008001d30        0x6 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(system_efr32fg23.c.obj)
+                0x0000000008001d30                SystemLFRCOClockGet
+ .text.SystemULFRCOClockGet
+                0x0000000008001d36        0x6 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(system_efr32fg23.c.obj)
+                0x0000000008001d36                SystemULFRCOClockGet
+ .text.SystemLFXOClockGet
+                0x0000000008001d3c        0xc ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(system_efr32fg23.c.obj)
+                0x0000000008001d3c                SystemLFXOClockGet
+ .text.__NVIC_SystemReset
+                0x0000000008001d48       0x24 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start.c.obj)
+ .text.Bootloader_systemReset
+                0x0000000008001d6c        0x6 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start.c.obj)
+                0x0000000008001d6c                Bootloader_systemReset
+ .text.Bootloader_allowFlashWrites
+                0x0000000008001d72        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start.c.obj)
+                0x0000000008001d72                Bootloader_allowFlashWrites
+ .text.bl_start_efr32_init_common
+                0x0000000008001d76       0x16 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start.c.obj)
+                0x0000000008001d76                bl_start_efr32_init_common
+ .text.bl_start_efr32_check_scratchpad
+                0x0000000008001d8c       0x12 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start.c.obj)
+                0x0000000008001d8c                bl_start_efr32_check_scratchpad
+ *fill*         0x0000000008001d9e        0x2 
+ .text.Scratchpad_clearWritePhase
+                0x0000000008001da0       0x24 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+ .text.update_area_info
+                0x0000000008001dc4       0x6c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+ .text.update_header
+                0x0000000008001e30       0xb8 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+ .text.Scratchpad_getValidity
+                0x0000000008001ee8       0xd0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+                0x0000000008001ee8                Scratchpad_getValidity
+ .text.Scratchpad_init
+                0x0000000008001fb8       0x88 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+                0x0000000008001fb8                Scratchpad_init
+ .text.Scratchpad_read
+                0x0000000008002040       0xec ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+                0x0000000008002040                Scratchpad_read
+ .text.Scratchpad_clear
+                0x000000000800212c       0xb8 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+                0x000000000800212c                Scratchpad_clear
+ .text.Scratchpad_begin
+                0x00000000080021e4       0x4c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+                0x00000000080021e4                Scratchpad_begin
+ .text.Scratchpad_write
+                0x0000000008002230      0x1dc ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+                0x0000000008002230                Scratchpad_write
+ .text.Scratchpad_getInfo
+                0x000000000800240c       0x9c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+                0x000000000800240c                Scratchpad_getInfo
+ .text.Scratchpad_setBootable
+                0x00000000080024a8       0x64 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+                0x00000000080024a8                Scratchpad_setBootable
+ .text.Scratchpad_setStatus
+                0x000000000800250c       0x58 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+                0x000000000800250c                Scratchpad_setStatus
+ .text.Scratchpad_setModemFWData
+                0x0000000008002564       0x1c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+                0x0000000008002564                Scratchpad_setModemFWData
+ .text.getAreaPtr
+                0x0000000008002580       0x20 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(memoryarea.c.obj)
+ .text.MemoryArea_init
+                0x00000000080025a0       0x14 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(memoryarea.c.obj)
+                0x00000000080025a0                MemoryArea_init
+ .text.MemoryArea_startRead
+                0x00000000080025b4       0x50 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(memoryarea.c.obj)
+                0x00000000080025b4                MemoryArea_startRead
+ .text.MemoryArea_startWrite
+                0x0000000008002604       0x54 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(memoryarea.c.obj)
+                0x0000000008002604                MemoryArea_startWrite
+ .text.MemoryArea_startErase
+                0x0000000008002658       0x4c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(memoryarea.c.obj)
+                0x0000000008002658                MemoryArea_startErase
+ .text.MemoryArea_isBusy
+                0x00000000080026a4       0x22 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(memoryarea.c.obj)
+                0x00000000080026a4                MemoryArea_isBusy
+ .text.MemoryArea_getAreaInfo
+                0x00000000080026c6       0x72 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(memoryarea.c.obj)
+                0x00000000080026c6                MemoryArea_getAreaInfo
+ .text.MemoryArea_getAreaList
+                0x0000000008002738       0x2c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(memoryarea.c.obj)
+                0x0000000008002738                MemoryArea_getAreaList
+ .text.MemoryArea_getIdfromType
+                0x0000000008002764       0x56 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(memoryarea.c.obj)
+                0x0000000008002764                MemoryArea_getIdfromType
+ .text.MemoryArea_getMaxNumAreas
+                0x00000000080027ba        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(memoryarea.c.obj)
+                0x00000000080027ba                MemoryArea_getMaxNumAreas
+ .text.MemoryArea_read
+                0x00000000080027be       0x66 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(memoryarea.c.obj)
+                0x00000000080027be                MemoryArea_read
+ .text.MemoryArea_getAreaHeader
+                0x0000000008002824       0x84 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(memoryarea.c.obj)
+                0x0000000008002824                MemoryArea_getAreaHeader
+ .text.MemoryArea_write_pages
+                0x00000000080028a8       0x94 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(memoryarea.c.obj)
+                0x00000000080028a8                MemoryArea_write_pages
+ .text.MemoryArea_erase
+                0x000000000800293c       0x62 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(memoryarea.c.obj)
+                0x000000000800293c                MemoryArea_erase
+ .text.puffReadIn
+                0x000000000800299e       0x50 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bootloader.c.obj)
+ *fill*         0x00000000080029ee        0x2 
+ .text.puffReadOut
+                0x00000000080029f0       0x58 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bootloader.c.obj)
+ .text.writeAndVerifyFlash
+                0x0000000008002a48       0x80 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bootloader.c.obj)
+ .text.puffWrite
+                0x0000000008002ac8       0x42 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bootloader.c.obj)
+ *fill*         0x0000000008002b0a        0x2 
+ .text.processFileData
+                0x0000000008002b0c       0xb0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bootloader.c.obj)
+ .text.Bootloader_findVerifyScratchpad
+                0x0000000008002bbc       0x9c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bootloader.c.obj)
+                0x0000000008002bbc                Bootloader_findVerifyScratchpad
+ .text.Bootloader_eraseFlash
+                0x0000000008002c58       0x58 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bootloader.c.obj)
+                0x0000000008002c58                Bootloader_eraseFlash
+ .text.Bootloader_processScratchpad
+                0x0000000008002cb0      0x220 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bootloader.c.obj)
+                0x0000000008002cb0                Bootloader_processScratchpad
+ .text.bl_start_efr32_init
+                0x0000000008002ed0       0x48 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_series2_config2_onwards.c.obj)
+                0x0000000008002ed0                bl_start_efr32_init
+ .text.bl_start_efr32_allow_flash_writes
+                0x0000000008002f18       0x24 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_series2_config2_onwards.c.obj)
+                0x0000000008002f18                bl_start_efr32_allow_flash_writes
+ .text.Watchdog_feed
+                0x0000000008002f3c       0x18 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(watchdog.c.obj)
+                0x0000000008002f3c                Watchdog_feed
+ .text.waitBusy
+                0x0000000008002f54       0x10 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(internal_flash.c.obj)
+ .text.internalFlash_init
+                0x0000000008002f64       0x18 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(internal_flash.c.obj)
+                0x0000000008002f64                internalFlash_init
+ .text.internalFlash_startRead
+                0x0000000008002f7c       0x14 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(internal_flash.c.obj)
+                0x0000000008002f7c                internalFlash_startRead
+ .text.internalFlash_isBusy
+                0x0000000008002f90        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(internal_flash.c.obj)
+                0x0000000008002f90                internalFlash_isBusy
+ .text.internalFlash_getInfo
+                0x0000000008002f94       0x58 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(internal_flash.c.obj)
+                0x0000000008002f94                internalFlash_getInfo
+ .text.Crc_addByte
+                0x0000000008002fec       0x1c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(crc.c.obj)
+                0x0000000008002fec                Crc_addByte
+ .text.aes_setupStream
+                0x0000000008003008       0x28 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aes.c.obj)
+                0x0000000008003008                aes_setupStream
+ .text.aes_omac1GenerateSubkey
+                0x0000000008003030       0x32 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aeshw_mbed.c.obj)
+ .text.aes_omac1
+                0x0000000008003062       0xd4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aeshw_mbed.c.obj)
+                0x0000000008003062                aes_omac1
+ .text.aes_crypto128Ctr
+                0x0000000008003136       0x72 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aeshw_mbed.c.obj)
+                0x0000000008003136                aes_crypto128Ctr
+ .text.aes_initOmac1
+                0x00000000080031a8       0x3c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aeshw_mbed.c.obj)
+                0x00000000080031a8                aes_initOmac1
+ .text.construct
+                0x00000000080031e4       0x9e ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(puff.c.obj)
+ .text.bits     0x0000000008003282       0x44 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(puff.c.obj)
+ .text.decode   0x00000000080032c6       0x90 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(puff.c.obj)
+ *fill*         0x0000000008003356        0x2 
+ .text.codes    0x0000000008003358       0xdc ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(puff.c.obj)
+ .text.dynamic  0x0000000008003434      0x19c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(puff.c.obj)
+ .text.puff     0x00000000080035d0      0x1c0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(puff.c.obj)
+                0x00000000080035d0                puff
+ .text.Bootloader_verifyFileHeader
+                0x0000000008003790       0x1c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_scratchpad_header.c.obj)
+                0x0000000008003790                Bootloader_verifyFileHeader
+ .text.Bootloader_isKeyValid
+                0x00000000080037ac       0x2a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_crypto.c.obj)
+                0x00000000080037ac                Bootloader_isKeyValid
+ *fill*         0x00000000080037d6        0x2 
+ .text.Bootloader_authenticateScratchpad
+                0x00000000080037d8       0xdc ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_crypto.c.obj)
+                0x00000000080037d8                Bootloader_authenticateScratchpad
+ .text.__NVIC_SystemReset
+                0x00000000080038b4       0x24 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_code_protection_series2.c.obj)
+ .text.bl_start_efr32_apply_code_protection
+                0x00000000080038d8       0x48 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_code_protection_series2.c.obj)
+                0x00000000080038d8                bl_start_efr32_apply_code_protection
+ .text.WDOGn_Feed
+                0x0000000008003920       0x22 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_wdog.c.obj)
+                0x0000000008003920                WDOGn_Feed
+ .text.sl_se_init
+                0x0000000008003942        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager.c.obj)
+                0x0000000008003942                sl_se_init
+ .text.sl_se_deinit
+                0x0000000008003946        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager.c.obj)
+                0x0000000008003946                sl_se_deinit
+ .text.sli_se_to_sl_status
+                0x000000000800394a       0x60 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager.c.obj)
+                0x000000000800394a                sli_se_to_sl_status
+ *fill*         0x00000000080039aa        0x2 
+ .text.sli_se_execute_and_wait
+                0x00000000080039ac       0x40 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager.c.obj)
+                0x00000000080039ac                sli_se_execute_and_wait
+ .text.sl_se_init_command_context
+                0x00000000080039ec       0x14 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager.c.obj)
+                0x00000000080039ec                sl_se_init_command_context
+ .text.sl_se_deinit_command_context
+                0x0000000008003a00        0xa ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager.c.obj)
+                0x0000000008003a00                sl_se_deinit_command_context
+ .text.sli_radioaes_run_operation
+                0x0000000008003a0a       0x46 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_protocol_crypto_radioaes.c.obj)
+ .text.sli_aes_crypt_ecb_radio
+                0x0000000008003a50       0x74 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_protocol_crypto_radioaes.c.obj)
+                0x0000000008003a50                sli_aes_crypt_ecb_radio
+ .text.sli_radioaes_acquire
+                0x0000000008003ac4       0x48 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_radioaes_management.c.obj)
+                0x0000000008003ac4                sli_radioaes_acquire
+ .text.sli_radioaes_release
+                0x0000000008003b0c        0xc ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_radioaes_management.c.obj)
+                0x0000000008003b0c                sli_radioaes_release
+ .text.sli_radioaes_save_state
+                0x0000000008003b18       0x1c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_radioaes_management.c.obj)
+                0x0000000008003b18                sli_radioaes_save_state
+ .text.sli_radioaes_restore_state
+                0x0000000008003b34       0x1c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_radioaes_management.c.obj)
+                0x0000000008003b34                sli_radioaes_restore_state
+ .text.decode_debug_status
+                0x0000000008003b50       0x6a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ *fill*         0x0000000008003bba        0x2 
+ .text.sl_se_apply_debug_lock
+                0x0000000008003bbc       0x1c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+                0x0000000008003bbc                sl_se_apply_debug_lock
+ .text.sl_se_get_debug_lock_status
+                0x0000000008003bd8       0x50 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+                0x0000000008003bd8                sl_se_get_debug_lock_status
+ .text.SE_addDataOutput
+                0x0000000008003c28       0x14 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_se.c.obj)
+                0x0000000008003c28                SE_addDataOutput
+ .text.SE_executeCommand
+                0x0000000008003c3c       0x3c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_se.c.obj)
+                0x0000000008003c3c                SE_executeCommand
+ .text.memcmp   0x0000000008003c78       0x20 /home/ramesh/srikanth_sir/work_folder/dlms/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libg_nano.a(lib_a-memcmp.o)
+                0x0000000008003c78                memcmp
+ .text.memcpy   0x0000000008003c98       0x1a /home/ramesh/srikanth_sir/work_folder/dlms/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libg_nano.a(lib_a-memcpy-stub.o)
+                0x0000000008003c98                memcpy
+ .text.memset   0x0000000008003cb2       0x10 /home/ramesh/srikanth_sir/work_folder/dlms/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libg_nano.a(lib_a-memset.o)
+                0x0000000008003cb2                memset
+ *(.text)
+ *fill*         0x0000000008003cc2        0x2 
+ .text          0x0000000008003cc4       0x1c /home/ramesh/srikanth_sir/work_folder/dlms/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libg_nano.a(lib_a-setjmp.o)
+                0x0000000008003cc4                setjmp
+                0x0000000008003cd0                longjmp
+ .text.__stub   0x0000000008003ce0       0x20 linker stubs
+ *(.glue_7)
+ .glue_7        0x0000000008003d00        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x0000000008003d00        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x0000000008003d00        0x0 linker stubs
+ *(.v4_bx)
+ .v4_bx         0x0000000008003d00        0x0 linker stubs
+ *(.rodata.*)
+ .rodata.CSWTCH.78
+                0x0000000008003d00        0xe ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .rodata.CSWTCH.79
+                0x0000000008003d0e        0x6 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .rodata.CSWTCH.80
+                0x0000000008003d14        0x3 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .rodata.CSWTCH.82
+                0x0000000008003d17        0x6 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .rodata.CSWTCH.84
+                0x0000000008003d1d        0x7 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .rodata.CSWTCH.85
+                0x0000000008003d24        0xb ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .rodata.CSWTCH.86
+                0x0000000008003d2f        0x6 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .rodata.CSWTCH.89
+                0x0000000008003d35        0xf ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .rodata.m_hw   0x0000000008003d44        0x8 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/bl_hardware.o
+ .rodata.m_platform_efr32
+                0x0000000008003d4c        0x8 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/bl_hardware.o
+ .rodata.m_flash_info
+                0x0000000008003d54       0x2c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/../board/radientum_wp_v1_0/bootloader/external_flash_mx25r8035f.o
+ .rodata.Scratchpad_clear.str1.1
+                0x0000000008003d80       0x11 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+ *fill*         0x0000000008003d91        0x3 
+ .rodata.m_clear_tag
+                0x0000000008003d94       0x10 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+ .rodata.m_tag  0x0000000008003da4       0x14 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+ .rodata.m_bl_interface
+                0x0000000008003db8       0x14 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_interface.c.obj)
+                0x0000000008003db8                m_bl_interface
+ .rodata.m_hardware_services
+                0x0000000008003dcc        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_interface.c.obj)
+                0x0000000008003dcc                m_hardware_services
+ .rodata.m_memory_area_services
+                0x0000000008003dd0       0x24 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_interface.c.obj)
+                0x0000000008003dd0                m_memory_area_services
+ .rodata.m_scratchpad_services
+                0x0000000008003df4       0x20 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_interface.c.obj)
+                0x0000000008003df4                m_scratchpad_services
+ .rodata.m_flash_info
+                0x0000000008003e14       0x2c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(internal_flash.c.obj)
+ .rodata.dext.1
+                0x0000000008003e40       0x3c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(puff.c.obj)
+ .rodata.dists.2
+                0x0000000008003e7c       0x3c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(puff.c.obj)
+ .rodata.lens.4
+                0x0000000008003eb8       0x3a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(puff.c.obj)
+ .rodata.lext.3
+                0x0000000008003ef2       0x3a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(puff.c.obj)
+ .rodata.order.0
+                0x0000000008003f2c       0x26 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(puff.c.obj)
+ *(.rodata)
+ .rodata        0x0000000008003f52       0x11 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/../board/radientum_wp_v1_0/bootloader/external_flash_mx25r8035f.o
+ *(.rodata1)
+ *(.crc_lut)
+                0x0000000008003f68                . = ALIGN (0x8)
+ *fill*         0x0000000008003f63        0x5 
+                0x0000000008003f68                __etext = .
+                0x0000000008003f68                __data_src_start__ = .
+
+.datastatic     0x0000000020000018      0x140 load address 0x0000000008003f68
+                0x0000000020000018                __datastatic_start__ = .
+ *(.ramtext)
+ .ramtext       0x0000000020000018      0x100 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(internal_flash.c.obj)
+                0x0000000020000018                internalFlash_startWrite
+                0x0000000020000098                internalFlash_startErase
+ .ramtext.__stub
+                0x0000000020000118       0x20 linker stubs
+ *memoryarea.*o*(.data* .data)
+ *scratchpad.*o*(.data* .data)
+ *internal_flash*.*o*(.data* .data)
+ *external_flash*.*o*(.data* .data)
+ *debug_flow*.*o*(.data* .data)
+ *board/*/bootloader/*.*o*(.data* .data)
+ *bootloader/bl_hardware*.*o*(.data* .data)
+ .data.m_hfxoInit
+                0x0000000020000138       0x14 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/bl_hardware.o
+ .data.m_lfxoInit
+                0x000000002000014c        0xb ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/bl_hardware.o
+                0x0000000020000158                . = ALIGN (0x8)
+ *fill*         0x0000000020000157        0x1 
+                0x0000000020000158                __datastatic_end__ = .
+
+.bssstatic      0x0000000020000158       0xb8 load address 0x00000000080040a8
+                0x0000000020000158                __bssstatic_start__ = .
+ *memoryarea.*o*(.bss.* .bss)
+ *scratchpad.*o*(.bss.* .bss)
+ .bss.m_area_dedicated
+                0x0000000020000158        0x1 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+ *fill*         0x0000000020000159        0x3 
+ .bss.m_area_id
+                0x000000002000015c        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+ .bss.m_area_length
+                0x0000000020000160        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+ .bss.m_area_start_address
+                0x0000000020000164        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+ .bss.m_block   0x0000000020000168       0x70 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+ .bss.m_header_address
+                0x00000000200001d8        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+ .bss.m_header_bytes
+                0x00000000200001dc       0x10 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+ .bss.m_modem_fw_area_id
+                0x00000000200001ec        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+ .bss.m_modem_fw_data
+                0x00000000200001f0        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+ .bss.m_modem_fw_length
+                0x00000000200001f4        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+ .bss.m_scratchpad_valid
+                0x00000000200001f8        0x1 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+ *fill*         0x00000000200001f9        0x3 
+ .bss.m_tag_address
+                0x00000000200001fc        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+ .bss.m_write_next_start
+                0x0000000020000200        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+ .bss.m_write_phase
+                0x0000000020000204        0x1 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+ .bss.m_write_seq
+                0x0000000020000205        0x1 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+ *fill*         0x0000000020000206        0x2 
+ .bss.m_write_total_num_bytes
+                0x0000000020000208        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+ *internal_flash*.*o*(.bss* .bss)
+ *external_flash*.*o*(.bss* .bss)
+ *debug_flow*.*o*(.bss* .bss)
+ *board/*/bootloader/*.*o*(.bss* .bss)
+ *bootloader/bl_hardware*.*o*(.bss* .bss)
+ *(COMMON)
+                0x0000000020000210                . = ALIGN (0x8)
+ *fill*         0x000000002000020c        0x4 
+                0x0000000020000210                __bssstatic_end__ = .
+
+.data           0x0000000020001500       0x18 load address 0x00000000080040a8
+                0x0000000020001500                __data_start__ = .
+ *(.data.*)
+ .data.SystemCoreClock
+                0x0000000020001500        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(system_efr32fg23.c.obj)
+                0x0000000020001500                SystemCoreClock
+ .data.SystemHFRCODPLLClock
+                0x0000000020001504        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(system_efr32fg23.c.obj)
+ .data.SystemHFXOClock
+                0x0000000020001508        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(system_efr32fg23.c.obj)
+ .data.SystemLFXOClock
+                0x000000002000150c        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(system_efr32fg23.c.obj)
+ .data.virgin.11
+                0x0000000020001510        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(puff.c.obj)
+ *(.data)
+ *(.data1)
+                0x0000000020001518                . = ALIGN (0x8)
+ *fill*         0x0000000020001514        0x4 
+                0x0000000020001518                __data_end__ = .
+
+.bss            0x0000000020001518     0x2360 load address 0x00000000080040c0
+                0x0000000020001518                __bss_start__ = .
+ *(.bss.*)
+ .bss.vScaleEM01Config
+                0x0000000020001518        0x1 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ *fill*         0x0000000020001519        0x3 
+ .bss.m_aes_data_stream
+                0x000000002000151c       0x30 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bootloader.c.obj)
+ .bss.m_encrypt_key
+                0x000000002000154c        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bootloader.c.obj)
+ .bss.m_file_area_id
+                0x0000000020001550        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bootloader.c.obj)
+ .bss.m_flash_page_buffer
+                0x0000000020001554     0x2000 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bootloader.c.obj)
+ .bss.m_num_verify_errors
+                0x0000000020003554        0x4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bootloader.c.obj)
+ .bss.m_scratchpad_info
+                0x0000000020003558       0x24 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bootloader.c.obj)
+ .bss.aes_plaintext_null
+                0x000000002000357c       0x10 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aes.c.obj)
+                0x000000002000357c                aes_plaintext_null
+ .bss.distcnt.6
+                0x000000002000358c       0x20 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(puff.c.obj)
+ .bss.distcode.7
+                0x00000000200035ac        0x8 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(puff.c.obj)
+ .bss.distsym.5
+                0x00000000200035b4       0x3c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(puff.c.obj)
+ .bss.lencnt.9  0x00000000200035f0       0x20 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(puff.c.obj)
+ .bss.lencode.10
+                0x0000000020003610        0x8 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(puff.c.obj)
+ .bss.lensym.8  0x0000000020003618      0x240 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(puff.c.obj)
+ .bss.cmd_ctx.0
+                0x0000000020003858       0x20 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_code_protection_series2.c.obj)
+ *(.bss)
+                0x0000000020003878                . = ALIGN (0x8)
+                0x0000000020003878                __bss_end__ = .
+
+.blconfig       0x0000000008007c00      0x400
+                0x0000000008007c00                __blconfig_start__ = .
+                0x0000000008008000                . = (. + LENGTH (BLCONFIG))
+ *fill*         0x0000000008007c00      0x400 
+                0x0000000008008000                __blconfig_end__ = .
+
+.stack_dummy
+ *(.stack*)
+                0x0000000020010000                __stack_top__ = (ORIGIN (RAM) + LENGTH (RAM))
+                0x0000000000000000                __Vectors = 0x0
+
+.invalid        0x0000000100000000        0x0
+ *(.init)
+ *(.fini)
+ *(.preinit_array)
+ *(.init_array)
+ *(.fini_array)
+ *(.ctors)
+ *(.dtors)
+ *(.jcr)
+ *(.eh_frame)
+ *(.eh_frame_hdr)
+ *(.heap*)
+ *(.tbss)
+ *(.tdata)
+ *(.tdata1)
+ *(.got)
+ *(.got.plt)
+ *(.igot.plt)
+ .igot.plt      0x0000000100000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/efr32/hal/power.o
+ *(.iplt)
+ .iplt          0x0000000100000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/efr32/hal/power.o
+ *(.rel.dyn)
+ *(.rel.iplt)
+ .rel.iplt      0x0000000100000000        0x0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/efr32/hal/power.o
+
+/DISCARD/
+ *(.ARM.extab)
+ *(.ARM.extab.*)
+ *(.ARM.exidx)
+ *(.ARM.exidx.*)
+START GROUP
+LOAD /home/ramesh/srikanth_sir/work_folder/dlms/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/libgcc.a
+LOAD /home/ramesh/srikanth_sir/work_folder/dlms/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libg_nano.a
+LOAD /home/ramesh/srikanth_sir/work_folder/dlms/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a
+END GROUP
+START GROUP
+LOAD /home/ramesh/srikanth_sir/work_folder/dlms/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/libgcc.a
+LOAD /home/ramesh/srikanth_sir/work_folder/dlms/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a
+END GROUP
+OUTPUT(../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.elf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000    0x23473
+ .debug_info    0x0000000000000000       0xa0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/efr32/hal/power.o
+ .debug_info    0x00000000000000a0     0x35e7 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .debug_info    0x0000000000003687     0x8ba9 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .debug_info    0x000000000000c230     0x1038 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+ .debug_info    0x000000000000d268       0x8e ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/early_init.o
+ .debug_info    0x000000000000d2f6      0x58f ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/bl_hardware.o
+ .debug_info    0x000000000000d885     0x367a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/../board/radientum_wp_v1_0/bootloader/external_flash_mx25r8035f.o
+ .debug_info    0x0000000000010eff     0x14c5 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(system_efr32fg23.c.obj)
+ .debug_info    0x00000000000123c4     0x14e7 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start.c.obj)
+ .debug_info    0x00000000000138ab     0x134e ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+ .debug_info    0x0000000000014bf9     0x10ae ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(memoryarea.c.obj)
+ .debug_info    0x0000000000015ca7      0xa84 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_interface.c.obj)
+ .debug_info    0x000000000001672b     0x146e ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bootloader.c.obj)
+ .debug_info    0x0000000000017b99      0x7b4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_series2_config2_onwards.c.obj)
+ .debug_info    0x000000000001834d      0xf98 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(watchdog.c.obj)
+ .debug_info    0x00000000000192e5     0x124e ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(internal_flash.c.obj)
+ .debug_info    0x000000000001a533      0x25e ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(crc.c.obj)
+ .debug_info    0x000000000001a791      0x28e ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aes.c.obj)
+ .debug_info    0x000000000001aa1f      0x5f1 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aeshw_mbed.c.obj)
+ .debug_info    0x000000000001b010      0xc74 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(puff.c.obj)
+ .debug_info    0x000000000001bc84      0x199 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_scratchpad_header.c.obj)
+ .debug_info    0x000000000001be1d      0x7d3 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_crypto.c.obj)
+ .debug_info    0x000000000001c5f0      0x6b9 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_code_protection_series2.c.obj)
+ .debug_info    0x000000000001cca9      0x6a4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_wdog.c.obj)
+ .debug_info    0x000000000001d34d     0x12fa ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager.c.obj)
+ .debug_info    0x000000000001e647     0x10ed ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_protocol_crypto_radioaes.c.obj)
+ .debug_info    0x000000000001f734     0x1285 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_radioaes_management.c.obj)
+ .debug_info    0x00000000000209b9     0x1a53 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .debug_info    0x000000000002240c     0x1067 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_se.c.obj)
+
+.debug_abbrev   0x0000000000000000     0x4444
+ .debug_abbrev  0x0000000000000000       0x65 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/efr32/hal/power.o
+ .debug_abbrev  0x0000000000000065      0x45c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .debug_abbrev  0x00000000000004c1      0x478 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .debug_abbrev  0x0000000000000939      0x35b ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+ .debug_abbrev  0x0000000000000c94       0x68 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/early_init.o
+ .debug_abbrev  0x0000000000000cfc       0xff ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/bl_hardware.o
+ .debug_abbrev  0x0000000000000dfb      0x378 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/../board/radientum_wp_v1_0/bootloader/external_flash_mx25r8035f.o
+ .debug_abbrev  0x0000000000001173      0x273 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(system_efr32fg23.c.obj)
+ .debug_abbrev  0x00000000000013e6      0x2a4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start.c.obj)
+ .debug_abbrev  0x000000000000168a      0x389 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+ .debug_abbrev  0x0000000000001a13      0x340 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(memoryarea.c.obj)
+ .debug_abbrev  0x0000000000001d53      0x118 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_interface.c.obj)
+ .debug_abbrev  0x0000000000001e6b      0x37d ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bootloader.c.obj)
+ .debug_abbrev  0x00000000000021e8      0x173 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_series2_config2_onwards.c.obj)
+ .debug_abbrev  0x000000000000235b      0x10d ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(watchdog.c.obj)
+ .debug_abbrev  0x0000000000002468      0x394 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(internal_flash.c.obj)
+ .debug_abbrev  0x00000000000027fc       0xf5 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(crc.c.obj)
+ .debug_abbrev  0x00000000000028f1      0x169 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aes.c.obj)
+ .debug_abbrev  0x0000000000002a5a      0x1dc ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aeshw_mbed.c.obj)
+ .debug_abbrev  0x0000000000002c36      0x303 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(puff.c.obj)
+ .debug_abbrev  0x0000000000002f39       0xf4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_scratchpad_header.c.obj)
+ .debug_abbrev  0x000000000000302d      0x247 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_crypto.c.obj)
+ .debug_abbrev  0x0000000000003274      0x1ab ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_code_protection_series2.c.obj)
+ .debug_abbrev  0x000000000000341f      0x24e ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_wdog.c.obj)
+ .debug_abbrev  0x000000000000366d      0x363 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager.c.obj)
+ .debug_abbrev  0x00000000000039d0      0x2ea ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_protocol_crypto_radioaes.c.obj)
+ .debug_abbrev  0x0000000000003cba      0x18d ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_radioaes_management.c.obj)
+ .debug_abbrev  0x0000000000003e47      0x338 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .debug_abbrev  0x000000000000417f      0x2c5 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_se.c.obj)
+
+.debug_aranges  0x0000000000000000      0xb30
+ .debug_aranges
+                0x0000000000000000       0x20 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/efr32/hal/power.o
+ .debug_aranges
+                0x0000000000000020       0xe8 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .debug_aranges
+                0x0000000000000108      0x188 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .debug_aranges
+                0x0000000000000290       0xc0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+ .debug_aranges
+                0x0000000000000350       0x28 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/early_init.o
+ .debug_aranges
+                0x0000000000000378       0x20 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/bl_hardware.o
+ .debug_aranges
+                0x0000000000000398       0x70 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/../board/radientum_wp_v1_0/bootloader/external_flash_mx25r8035f.o
+ .debug_aranges
+                0x0000000000000408       0x90 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(system_efr32fg23.c.obj)
+ .debug_aranges
+                0x0000000000000498       0x48 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start.c.obj)
+ .debug_aranges
+                0x00000000000004e0       0x80 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+ .debug_aranges
+                0x0000000000000560       0x88 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(memoryarea.c.obj)
+ .debug_aranges
+                0x00000000000005e8       0x18 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_interface.c.obj)
+ .debug_aranges
+                0x0000000000000600       0x60 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bootloader.c.obj)
+ .debug_aranges
+                0x0000000000000660       0x28 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_series2_config2_onwards.c.obj)
+ .debug_aranges
+                0x0000000000000688       0x20 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(watchdog.c.obj)
+ .debug_aranges
+                0x00000000000006a8       0x50 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(internal_flash.c.obj)
+ .debug_aranges
+                0x00000000000006f8       0x30 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(crc.c.obj)
+ .debug_aranges
+                0x0000000000000728       0x28 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aes.c.obj)
+ .debug_aranges
+                0x0000000000000750       0x38 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aeshw_mbed.c.obj)
+ .debug_aranges
+                0x0000000000000788       0x48 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(puff.c.obj)
+ .debug_aranges
+                0x00000000000007d0       0x20 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_scratchpad_header.c.obj)
+ .debug_aranges
+                0x00000000000007f0       0x28 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_crypto.c.obj)
+ .debug_aranges
+                0x0000000000000818       0x28 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_code_protection_series2.c.obj)
+ .debug_aranges
+                0x0000000000000840       0x48 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_wdog.c.obj)
+ .debug_aranges
+                0x0000000000000888       0x58 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager.c.obj)
+ .debug_aranges
+                0x00000000000008e0       0x68 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_protocol_crypto_radioaes.c.obj)
+ .debug_aranges
+                0x0000000000000948       0x38 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_radioaes_management.c.obj)
+ .debug_aranges
+                0x0000000000000980      0x108 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .debug_aranges
+                0x0000000000000a88       0xa8 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_se.c.obj)
+
+.debug_ranges   0x0000000000000000     0x13c8
+ .debug_ranges  0x0000000000000000       0x10 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/efr32/hal/power.o
+ .debug_ranges  0x0000000000000010      0x240 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .debug_ranges  0x0000000000000250      0x240 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .debug_ranges  0x0000000000000490      0x180 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+ .debug_ranges  0x0000000000000610       0x18 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/early_init.o
+ .debug_ranges  0x0000000000000628       0x10 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/bl_hardware.o
+ .debug_ranges  0x0000000000000638      0x1b8 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/../board/radientum_wp_v1_0/bootloader/external_flash_mx25r8035f.o
+ .debug_ranges  0x00000000000007f0       0x80 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(system_efr32fg23.c.obj)
+ .debug_ranges  0x0000000000000870       0x38 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start.c.obj)
+ .debug_ranges  0x00000000000008a8      0x100 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+ .debug_ranges  0x00000000000009a8      0x178 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(memoryarea.c.obj)
+ .debug_ranges  0x0000000000000b20      0x150 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bootloader.c.obj)
+ .debug_ranges  0x0000000000000c70       0x18 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_series2_config2_onwards.c.obj)
+ .debug_ranges  0x0000000000000c88       0x10 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(watchdog.c.obj)
+ .debug_ranges  0x0000000000000c98       0xb8 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(internal_flash.c.obj)
+ .debug_ranges  0x0000000000000d50       0x60 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(crc.c.obj)
+ .debug_ranges  0x0000000000000db0       0x18 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aes.c.obj)
+ .debug_ranges  0x0000000000000dc8       0x88 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aeshw_mbed.c.obj)
+ .debug_ranges  0x0000000000000e50       0xa8 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(puff.c.obj)
+ .debug_ranges  0x0000000000000ef8       0x10 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_scratchpad_header.c.obj)
+ .debug_ranges  0x0000000000000f08       0x98 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_crypto.c.obj)
+ .debug_ranges  0x0000000000000fa0       0x18 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_code_protection_series2.c.obj)
+ .debug_ranges  0x0000000000000fb8       0x38 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_wdog.c.obj)
+ .debug_ranges  0x0000000000000ff0       0xf0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager.c.obj)
+ .debug_ranges  0x00000000000010e0       0xa0 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_protocol_crypto_radioaes.c.obj)
+ .debug_ranges  0x0000000000001180       0x28 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_radioaes_management.c.obj)
+ .debug_ranges  0x00000000000011a8      0x128 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .debug_ranges  0x00000000000012d0       0xf8 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_se.c.obj)
+
+.debug_line     0x0000000000000000     0xcbe1
+ .debug_line    0x0000000000000000       0x71 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/efr32/hal/power.o
+ .debug_line    0x0000000000000071      0xc18 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .debug_line    0x0000000000000c89     0x2367 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .debug_line    0x0000000000002ff0      0x6fe ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+ .debug_line    0x00000000000036ee       0x83 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/early_init.o
+ .debug_line    0x0000000000003771      0x186 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/bl_hardware.o
+ .debug_line    0x00000000000038f7      0xb48 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/../board/radientum_wp_v1_0/bootloader/external_flash_mx25r8035f.o
+ .debug_line    0x000000000000443f      0x46d ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(system_efr32fg23.c.obj)
+ .debug_line    0x00000000000048ac      0x4ad ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start.c.obj)
+ .debug_line    0x0000000000004d59      0xc13 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+ .debug_line    0x000000000000596c      0x9e7 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(memoryarea.c.obj)
+ .debug_line    0x0000000000006353      0x188 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_interface.c.obj)
+ .debug_line    0x00000000000064db      0xaa9 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bootloader.c.obj)
+ .debug_line    0x0000000000006f84      0x26a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_series2_config2_onwards.c.obj)
+ .debug_line    0x00000000000071ee      0x1e5 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(watchdog.c.obj)
+ .debug_line    0x00000000000073d3      0x6df ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(internal_flash.c.obj)
+ .debug_line    0x0000000000007ab2      0x22f ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(crc.c.obj)
+ .debug_line    0x0000000000007ce1      0x1de ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aes.c.obj)
+ .debug_line    0x0000000000007ebf      0x553 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aeshw_mbed.c.obj)
+ .debug_line    0x0000000000008412      0xac3 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(puff.c.obj)
+ .debug_line    0x0000000000008ed5      0x1bc ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_scratchpad_header.c.obj)
+ .debug_line    0x0000000000009091      0x43c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_crypto.c.obj)
+ .debug_line    0x00000000000094cd      0x3a2 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_code_protection_series2.c.obj)
+ .debug_line    0x000000000000986f      0x39e ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_wdog.c.obj)
+ .debug_line    0x0000000000009c0d      0x58b ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager.c.obj)
+ .debug_line    0x000000000000a198      0xc7e ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_protocol_crypto_radioaes.c.obj)
+ .debug_line    0x000000000000ae16      0x3c2 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_radioaes_management.c.obj)
+ .debug_line    0x000000000000b1d8     0x1053 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .debug_line    0x000000000000c22b      0x9b6 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_se.c.obj)
+
+.debug_str      0x0000000000000000     0xc0a1
+ .debug_str     0x0000000000000000      0x18a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/efr32/hal/power.o
+                                        0x1be (size before relaxing)
+ .debug_str     0x000000000000018a     0x24f4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+                                       0x27a3 (size before relaxing)
+ .debug_str     0x000000000000267e     0x4b64 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+                                       0x677f (size before relaxing)
+ .debug_str     0x00000000000071e2      0x746 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+                                        0xae4 (size before relaxing)
+ .debug_str     0x0000000000007928       0x44 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/early_init.o
+                                        0x158 (size before relaxing)
+ .debug_str     0x000000000000796c       0x78 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/bl_hardware.o
+                                        0xa46 (size before relaxing)
+ .debug_str     0x00000000000079e4      0x849 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/../board/radientum_wp_v1_0/bootloader/external_flash_mx25r8035f.o
+                                       0x2172 (size before relaxing)
+ .debug_str     0x000000000000822d      0x21d ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(system_efr32fg23.c.obj)
+                                        0xf96 (size before relaxing)
+ .debug_str     0x000000000000844a      0xbf4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start.c.obj)
+                                       0x192b (size before relaxing)
+ .debug_str     0x000000000000903e      0x71f ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+                                        0xf1d (size before relaxing)
+ .debug_str     0x000000000000975d      0x251 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(memoryarea.c.obj)
+                                        0x8b6 (size before relaxing)
+ .debug_str     0x00000000000099ae       0x91 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_interface.c.obj)
+                                        0xdd8 (size before relaxing)
+ .debug_str     0x0000000000009a3f      0x39e ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bootloader.c.obj)
+                                        0xe66 (size before relaxing)
+ .debug_str     0x0000000000009ddd      0x15f ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_series2_config2_onwards.c.obj)
+                                        0xc80 (size before relaxing)
+ .debug_str     0x0000000000009f3c       0x5a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(watchdog.c.obj)
+                                        0xd3a (size before relaxing)
+ .debug_str     0x0000000000009f96       0xe5 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(internal_flash.c.obj)
+                                        0xc3f (size before relaxing)
+ .debug_str     0x000000000000a07b      0x158 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(crc.c.obj)
+                                        0x227 (size before relaxing)
+ .debug_str     0x000000000000a1d3       0xf4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aes.c.obj)
+                                        0x2d9 (size before relaxing)
+ .debug_str     0x000000000000a2c7      0x266 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aeshw_mbed.c.obj)
+                                        0x4bc (size before relaxing)
+ .debug_str     0x000000000000a52d      0x177 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(puff.c.obj)
+                                        0x39e (size before relaxing)
+ .debug_str     0x000000000000a6a4       0x58 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_scratchpad_header.c.obj)
+                                        0x279 (size before relaxing)
+ .debug_str     0x000000000000a6fc       0xfd ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_crypto.c.obj)
+                                        0x5dd (size before relaxing)
+ .debug_str     0x000000000000a7f9      0x22a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_code_protection_series2.c.obj)
+                                        0x5a5 (size before relaxing)
+ .debug_str     0x000000000000aa23      0x32f ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_wdog.c.obj)
+                                        0x6a7 (size before relaxing)
+ .debug_str     0x000000000000ad52      0x212 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager.c.obj)
+                                        0xf3d (size before relaxing)
+ .debug_str     0x000000000000af64      0x601 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_protocol_crypto_radioaes.c.obj)
+                                        0x8f5 (size before relaxing)
+ .debug_str     0x000000000000b565       0x7c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_radioaes_management.c.obj)
+                                        0xf29 (size before relaxing)
+ .debug_str     0x000000000000b5e1      0x79f ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+                                        0xbaf (size before relaxing)
+ .debug_str     0x000000000000bd80      0x321 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_se.c.obj)
+                                        0x6c1 (size before relaxing)
+
+.comment        0x0000000000000000       0x49
+ .comment       0x0000000000000000       0x49 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/efr32/hal/power.o
+                                         0x4a (size before relaxing)
+ .comment       0x0000000000000049       0x4a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .comment       0x0000000000000049       0x4a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .comment       0x0000000000000049       0x4a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+ .comment       0x0000000000000049       0x4a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/early_init.o
+ .comment       0x0000000000000049       0x4a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/bl_hardware.o
+ .comment       0x0000000000000049       0x4a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/../board/radientum_wp_v1_0/bootloader/external_flash_mx25r8035f.o
+ .comment       0x0000000000000049       0x4a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(system_efr32fg23.c.obj)
+ .comment       0x0000000000000049       0x4a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start.c.obj)
+ .comment       0x0000000000000049       0x4a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+ .comment       0x0000000000000049       0x4a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(memoryarea.c.obj)
+ .comment       0x0000000000000049       0x4a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_interface.c.obj)
+ .comment       0x0000000000000049       0x4a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bootloader.c.obj)
+ .comment       0x0000000000000049       0x4a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_series2_config2_onwards.c.obj)
+ .comment       0x0000000000000049       0x4a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(watchdog.c.obj)
+ .comment       0x0000000000000049       0x4a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(internal_flash.c.obj)
+ .comment       0x0000000000000049       0x4a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(crc.c.obj)
+ .comment       0x0000000000000049       0x4a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aes.c.obj)
+ .comment       0x0000000000000049       0x4a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aeshw_mbed.c.obj)
+ .comment       0x0000000000000049       0x4a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(puff.c.obj)
+ .comment       0x0000000000000049       0x4a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_scratchpad_header.c.obj)
+ .comment       0x0000000000000049       0x4a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_crypto.c.obj)
+ .comment       0x0000000000000049       0x4a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_code_protection_series2.c.obj)
+ .comment       0x0000000000000049       0x4a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_wdog.c.obj)
+ .comment       0x0000000000000049       0x4a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager.c.obj)
+ .comment       0x0000000000000049       0x4a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_protocol_crypto_radioaes.c.obj)
+ .comment       0x0000000000000049       0x4a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_radioaes_management.c.obj)
+ .comment       0x0000000000000049       0x4a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .comment       0x0000000000000049       0x4a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_se.c.obj)
+
+.ARM.attributes
+                0x0000000000000000       0x38
+ .ARM.attributes
+                0x0000000000000000       0x38 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/efr32/hal/power.o
+ .ARM.attributes
+                0x0000000000000038       0x38 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .ARM.attributes
+                0x0000000000000070       0x38 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .ARM.attributes
+                0x00000000000000a8       0x38 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+ .ARM.attributes
+                0x00000000000000e0       0x38 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/early_init.o
+ .ARM.attributes
+                0x0000000000000118       0x38 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/bl_hardware.o
+ .ARM.attributes
+                0x0000000000000150       0x38 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/../board/radientum_wp_v1_0/bootloader/external_flash_mx25r8035f.o
+ .ARM.attributes
+                0x0000000000000188       0x3a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(system_efr32fg23.c.obj)
+ .ARM.attributes
+                0x00000000000001c2       0x3a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start.c.obj)
+ .ARM.attributes
+                0x00000000000001fc       0x3a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+ .ARM.attributes
+                0x0000000000000236       0x3a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(memoryarea.c.obj)
+ .ARM.attributes
+                0x0000000000000270       0x3a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_interface.c.obj)
+ .ARM.attributes
+                0x00000000000002aa       0x3a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bootloader.c.obj)
+ .ARM.attributes
+                0x00000000000002e4       0x3a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_series2_config2_onwards.c.obj)
+ .ARM.attributes
+                0x000000000000031e       0x3a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(watchdog.c.obj)
+ .ARM.attributes
+                0x0000000000000358       0x3a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(internal_flash.c.obj)
+ .ARM.attributes
+                0x0000000000000392       0x3a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(crc.c.obj)
+ .ARM.attributes
+                0x00000000000003cc       0x3a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aes.c.obj)
+ .ARM.attributes
+                0x0000000000000406       0x3a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aeshw_mbed.c.obj)
+ .ARM.attributes
+                0x0000000000000440       0x3a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(puff.c.obj)
+ .ARM.attributes
+                0x000000000000047a       0x3a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_scratchpad_header.c.obj)
+ .ARM.attributes
+                0x00000000000004b4       0x3a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_crypto.c.obj)
+ .ARM.attributes
+                0x00000000000004ee       0x3a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_code_protection_series2.c.obj)
+ .ARM.attributes
+                0x0000000000000528       0x3a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_wdog.c.obj)
+ .ARM.attributes
+                0x0000000000000562       0x3a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager.c.obj)
+ .ARM.attributes
+                0x000000000000059c       0x3a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_protocol_crypto_radioaes.c.obj)
+ .ARM.attributes
+                0x00000000000005d6       0x3a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_radioaes_management.c.obj)
+ .ARM.attributes
+                0x0000000000000610       0x3a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .ARM.attributes
+                0x000000000000064a       0x3a ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_se.c.obj)
+ .ARM.attributes
+                0x0000000000000684       0x38 /home/ramesh/srikanth_sir/work_folder/dlms/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libg_nano.a(lib_a-memcmp.o)
+ .ARM.attributes
+                0x00000000000006bc       0x38 /home/ramesh/srikanth_sir/work_folder/dlms/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libg_nano.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x00000000000006f4       0x38 /home/ramesh/srikanth_sir/work_folder/dlms/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libg_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000000000000072c       0x20 /home/ramesh/srikanth_sir/work_folder/dlms/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libg_nano.a(lib_a-setjmp.o)
+
+.debug_frame    0x0000000000000000     0x1f64
+ .debug_frame   0x0000000000000000       0x20 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/efr32/hal/power.o
+ .debug_frame   0x0000000000000020      0x2cc ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .debug_frame   0x00000000000002ec      0x4a4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .debug_frame   0x0000000000000790      0x218 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+ .debug_frame   0x00000000000009a8       0x38 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/early_init.o
+ .debug_frame   0x00000000000009e0       0x20 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader/bl_hardware.o
+ .debug_frame   0x0000000000000a00      0x130 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/../board/radientum_wp_v1_0/bootloader/external_flash_mx25r8035f.o
+ .debug_frame   0x0000000000000b30      0x108 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(system_efr32fg23.c.obj)
+ .debug_frame   0x0000000000000c38       0x9c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start.c.obj)
+ .debug_frame   0x0000000000000cd4      0x1d8 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+ .debug_frame   0x0000000000000eac      0x200 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(memoryarea.c.obj)
+ .debug_frame   0x00000000000010ac      0x144 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bootloader.c.obj)
+ .debug_frame   0x00000000000011f0       0x50 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_series2_config2_onwards.c.obj)
+ .debug_frame   0x0000000000001240       0x20 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(watchdog.c.obj)
+ .debug_frame   0x0000000000001260       0xbc ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(internal_flash.c.obj)
+ .debug_frame   0x000000000000131c       0x50 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(crc.c.obj)
+ .debug_frame   0x000000000000136c       0x4c ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aes.c.obj)
+ .debug_frame   0x00000000000013b8       0xac ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aeshw_mbed.c.obj)
+ .debug_frame   0x0000000000001464      0x104 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(puff.c.obj)
+ .debug_frame   0x0000000000001568       0x20 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_scratchpad_header.c.obj)
+ .debug_frame   0x0000000000001588       0x58 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_crypto.c.obj)
+ .debug_frame   0x00000000000015e0       0x38 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_code_protection_series2.c.obj)
+ .debug_frame   0x0000000000001618       0x90 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_wdog.c.obj)
+ .debug_frame   0x00000000000016a8       0xb8 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager.c.obj)
+ .debug_frame   0x0000000000001760      0x184 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_protocol_crypto_radioaes.c.obj)
+ .debug_frame   0x00000000000018e4       0x60 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_radioaes_management.c.obj)
+ .debug_frame   0x0000000000001944      0x3b4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .debug_frame   0x0000000000001cf8      0x1fc ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_se.c.obj)
+ .debug_frame   0x0000000000001ef4       0x28 /home/ramesh/srikanth_sir/work_folder/dlms/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libg_nano.a(lib_a-memcmp.o)
+ .debug_frame   0x0000000000001f1c       0x28 /home/ramesh/srikanth_sir/work_folder/dlms/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libg_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x0000000000001f44       0x20 /home/ramesh/srikanth_sir/work_folder/dlms/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libg_nano.a(lib_a-memset.o)
+
+.debug_loc      0x0000000000000000     0xb5f5
+ .debug_loc     0x0000000000000000      0x676 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_emu.o
+ .debug_loc     0x0000000000000676     0x3262 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_cmu.o
+ .debug_loc     0x00000000000038d8      0x5a9 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/mcu/efr/common/vendor/em_core.o
+ .debug_loc     0x0000000000003e81      0x9e7 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/../board/radientum_wp_v1_0/bootloader/external_flash_mx25r8035f.o
+ .debug_loc     0x0000000000004868      0x16d ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(system_efr32fg23.c.obj)
+ .debug_loc     0x00000000000049d5       0x35 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start.c.obj)
+ .debug_loc     0x0000000000004a0a      0x901 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(scratchpad.c.obj)
+ .debug_loc     0x000000000000530b      0xda3 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(memoryarea.c.obj)
+ .debug_loc     0x00000000000060ae      0x891 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bootloader.c.obj)
+ .debug_loc     0x000000000000693f       0x37 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_start_series2_config2_onwards.c.obj)
+ .debug_loc     0x0000000000006976      0x3cd ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(internal_flash.c.obj)
+ .debug_loc     0x0000000000006d43      0x1fc ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(crc.c.obj)
+ .debug_loc     0x0000000000006f3f      0x112 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aes.c.obj)
+ .debug_loc     0x0000000000007051      0x4cb ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(aeshw_mbed.c.obj)
+ .debug_loc     0x000000000000751c      0xc11 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(puff.c.obj)
+ .debug_loc     0x000000000000812d       0x42 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_scratchpad_header.c.obj)
+ .debug_loc     0x000000000000816f      0x395 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(bl_crypto.c.obj)
+ .debug_loc     0x0000000000008504       0xf7 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_wdog.c.obj)
+ .debug_loc     0x00000000000085fb      0x3cc ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager.c.obj)
+ .debug_loc     0x00000000000089c7      0xe03 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_protocol_crypto_radioaes.c.obj)
+ .debug_loc     0x00000000000097ca       0x6e ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sli_radioaes_management.c.obj)
+ .debug_loc     0x0000000000009838     0x1809 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(sl_se_manager_util.c.obj)
+ .debug_loc     0x000000000000b041      0x5b4 ../build/radientum_wp_v1_0_sink_app/sink_app/bootloader/bootloader.a(em_se.c.obj)

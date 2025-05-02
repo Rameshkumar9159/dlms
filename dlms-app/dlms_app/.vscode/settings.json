@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "nic_server.h": "c",
+        "preamble_app.h": "c",
+        "dlms_id.h": "c",
+        "meter_uart.h": "c",
+        "dlms_com.h": "c"
+    }
+}

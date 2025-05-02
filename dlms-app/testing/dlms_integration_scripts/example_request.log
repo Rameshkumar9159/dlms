@@ -1,0 +1,4 @@
+2025-04-17 12:11:37,047 | [INFO] dlms_network_interface.py:73:__init__:Destination endpoint for on demand requests set to 62
+2025-04-17 12:11:37,048 | [INFO] dlms_network_interface.py:87:_wait_for_connection:Waiting for the Wirepas network interface to be connected...
+2025-04-17 12:11:37,495 | [ERROR] wirepas_network_interface.py:221:_execute_connection:Unknown exception in client connection [Errno 104] Connection reset by peer
+2025-04-17 12:11:47,079 | [ERROR] dlms_network_interface.py:92:_wait_for_connection:The Wirepas network interface could not connect.

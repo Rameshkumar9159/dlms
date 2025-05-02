@@ -1,0 +1,73 @@
+From cd4d2d0db9652013074395d1ccd4d39b4b05f647 Mon Sep 17 00:00:00 2001
+From: Gwendal Raoul <gwendal.raoul@wirepas.com>
+Date: Tue, 2 Apr 2024 18:28:26 +0200
+Subject: [PATCH]  Patch to support the allocation of heap with linker symbols
+
+---
+ util/syscalls.c | 38 +++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 37 insertions(+), 1 deletion(-)
+
+diff --git a/util/syscalls.c b/util/syscalls.c
+index 6854554..255eed1 100644
+--- a/util/syscalls.c
++++ b/util/syscalls.c
+@@ -18,12 +18,18 @@
+
+
+ #ifdef HEAP_MEM_SIZE
+-
+ static uint8_t  _heap_mem[HEAP_MEM_SIZE];
+ static int32_t  _heap_mem_size;
+
+ #endif
+
++#ifdef HEAP_FROM_LINKER
++extern uint32_t __heap_start__  __attribute__ ((weak));
++extern int32_t __heap_size__ __attribute__ ((weak));
++
++static int32_t current_heap_size;
++#endif
++
+ void * _sbrk (ptrdiff_t incr) {
+ #ifdef HEAP_MEM_SIZE
+     const uint8_t * prev_heap_end = &_heap_mem[_heap_mem_size];
+@@ -49,6 +55,36 @@ void * _sbrk (ptrdiff_t incr) {
+     _heap_mem_size += incr;
+     return (void *) prev_heap_end;
+
++#elif defined HEAP_FROM_LINKER
++    uint8_t * heap_start = (uint8_t *)&__heap_start__;
++    int32_t heap_size = (int32_t)&__heap_size__;
++
++    const uint8_t * prev_heap_end = heap_start + current_heap_size;
++
++    /* sanity checks
++    * - if incr >= 0, malloc requires heap memory, check there is enough free memory.
++    * - if incr < 0, malloc free heap memory, check there is no bug that would release too much memory.
++    *
++    * Note that the newlib-nano malloc allocator never free heap memory.
++    */
++    if ( (incr >= 0) && ((current_heap_size + incr) > heap_size))
++    {
++        errno = ENOMEM;
++        return (void *) -1;
++
++    }
++    else if ((incr < 0) && ((current_heap_size + incr) < 0))
++    {
++      current_heap_size = 0;
++
++      errno = EFAULT;
++      return (void *) -1;
++    }
++
++    /* Update allocated mem size, and return pointer to the chunck */
++    current_heap_size += incr;
++    return (void *) prev_heap_end;
++
+ #else
+
+     errno = ENOMEM;
+--
+2.34.1
+

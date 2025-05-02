@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>7.0</ProjectVersion>
+    <ToolchainName>com.microchip.xc8</ToolchainName>
+    <ProjectGuid>2285C48D-296E-43FD-A7B6-69885F64CFFD</ProjectGuid>
+    <avrdevice>ATmega2560</avrdevice>
+    <avrdeviceseries>none</avrdeviceseries>
+    <OutputType>Executable</OutputType>
+    <Language>C</Language>
+    <OutputFileName>$(MSBuildProjectName)</OutputFileName>
+    <OutputFileExtension>.elf</OutputFileExtension>
+    <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
+    <AssemblyName>GuruxDLMSClientExample</AssemblyName>
+    <Name>GuruxDLMSClientExample</Name>
+    <RootNamespace>GuruxDLMSClientExample</RootNamespace>
+    <ToolchainFlavour>XC8_2.31</ToolchainFlavour>
+    <KeepTimersRunning>true</KeepTimersRunning>
+    <OverrideVtor>false</OverrideVtor>
+    <CacheFlash>true</CacheFlash>
+    <ProgFlashFromRam>true</ProgFlashFromRam>
+    <RamSnippetAddress>0x20000000</RamSnippetAddress>
+    <UncachedRange />
+    <preserveEEPROM>true</preserveEEPROM>
+    <OverrideVtorValue>exception_table</OverrideVtorValue>
+    <BootSegment>2</BootSegment>
+    <ResetRule>0</ResetRule>
+    <eraseonlaunchrule>0</eraseonlaunchrule>
+    <EraseKey />
+    <AsfFrameworkConfig>
+      <framework-data xmlns="">
+        <options />
+        <configurations />
+        <files />
+        <documentation help="" />
+        <offline-documentation help="" />
+        <dependencies>
+          <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.49.1" />
+        </dependencies>
+      </framework-data>
+    </AsfFrameworkConfig>
+    <avrtool>com.atmel.avrdbg.tool.atmelice</avrtool>
+    <avrtoolserialnumber>J41800097564</avrtoolserialnumber>
+    <avrdeviceexpectedsignature>0x1E9801</avrdeviceexpectedsignature>
+    <com_atmel_avrdbg_tool_atmelice>
+      <ToolOptions>
+        <InterfaceProperties>
+          <IspClock>125000</IspClock>
+        </InterfaceProperties>
+        <InterfaceName>ISP</InterfaceName>
+      </ToolOptions>
+      <ToolType>com.atmel.avrdbg.tool.atmelice</ToolType>
+      <ToolNumber>J41800097564</ToolNumber>
+      <ToolName>Atmel-ICE</ToolName>
+    </com_atmel_avrdbg_tool_atmelice>
+    <avrtoolinterface>ISP</avrtoolinterface>
+    <avrtoolinterfaceclock>125000</avrtoolinterfaceclock>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <ToolchainSettings>
+      <com.microchip.xc8>
+        <com.microchip.xc8.common.optimization.RelaxBranches>True</com.microchip.xc8.common.optimization.RelaxBranches>
+        <com.microchip.xc8.compiler.general.ChangeDefaultCharTypeUnsigned>True</com.microchip.xc8.compiler.general.ChangeDefaultCharTypeUnsigned>
+        <com.microchip.xc8.compiler.general.ChangeDefaultBitFieldUnsigned>True</com.microchip.xc8.compiler.general.ChangeDefaultBitFieldUnsigned>
+        <com.microchip.xc8.compiler.symbols.DefSymbols>
+          <ListValues>
+            <Value>(%24DeviceMacro)</Value>
+            <Value>NDEBUG</Value>
+          </ListValues>
+        </com.microchip.xc8.compiler.symbols.DefSymbols>
+        <com.microchip.xc8.compiler.optimization.level>Optimize for size (-Os)</com.microchip.xc8.compiler.optimization.level>
+        <com.microchip.xc8.compiler.optimization.PackStructureMembers>True</com.microchip.xc8.compiler.optimization.PackStructureMembers>
+        <com.microchip.xc8.compiler.optimization.AllocateBytesNeededForEnum>True</com.microchip.xc8.compiler.optimization.AllocateBytesNeededForEnum>
+        <com.microchip.xc8.compiler.warnings.AllWarnings>True</com.microchip.xc8.compiler.warnings.AllWarnings>
+        <com.microchip.xc8.linker.libraries.Libraries>
+          <ListValues>
+            <Value>libm</Value>
+          </ListValues>
+        </com.microchip.xc8.linker.libraries.Libraries>
+      </com.microchip.xc8>
+    </ToolchainSettings>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <ToolchainSettings>
+      <com.microchip.xc8>
+        <com.microchip.xc8.common.outputfiles.hex>True</com.microchip.xc8.common.outputfiles.hex>
+        <com.microchip.xc8.common.outputfiles.eep>True</com.microchip.xc8.common.outputfiles.eep>
+        <com.microchip.xc8.common.outputfiles.usersignatures>False</com.microchip.xc8.common.outputfiles.usersignatures>
+        <com.microchip.xc8.common.outputfiles.lss>True</com.microchip.xc8.common.outputfiles.lss>
+        <com.microchip.xc8.compiler.general.ChangeDefaultCharTypeUnsigned>True</com.microchip.xc8.compiler.general.ChangeDefaultCharTypeUnsigned>
+        <com.microchip.xc8.compiler.general.ChangeDefaultBitFieldUnsigned>True</com.microchip.xc8.compiler.general.ChangeDefaultBitFieldUnsigned>
+        <com.microchip.xc8.compiler.symbols.DefSymbols>
+          <ListValues>
+            <Value>(%24DeviceMacro)</Value>
+            <Value>DEBUG</Value>
+            <Value>GX_DLMS_MICROCONTROLLER</Value>
+            <Value>DLMS_IGNORE_SERVER</Value>
+            <Value>DLMS_IGNORE_NOTIFY</Value>
+          </ListValues>
+        </com.microchip.xc8.compiler.symbols.DefSymbols>
+        <com.microchip.xc8.compiler.optimization.level>Optimize debugging experience (-Og)</com.microchip.xc8.compiler.optimization.level>
+        <com.microchip.xc8.compiler.optimization.PackStructureMembers>True</com.microchip.xc8.compiler.optimization.PackStructureMembers>
+        <com.microchip.xc8.compiler.optimization.AllocateBytesNeededForEnum>True</com.microchip.xc8.compiler.optimization.AllocateBytesNeededForEnum>
+        <com.microchip.xc8.compiler.optimization.DebugLevel>Default (-g2)</com.microchip.xc8.compiler.optimization.DebugLevel>
+        <com.microchip.xc8.compiler.warnings.AllWarnings>True</com.microchip.xc8.compiler.warnings.AllWarnings>
+        <com.microchip.xc8.linker.libraries.Libraries>
+          <ListValues>
+            <Value>libm</Value>
+          </ListValues>
+        </com.microchip.xc8.linker.libraries.Libraries>
+        <com.microchip.xc8.assembler.debugging.DebugLevel>Default (-Wa,-g)</com.microchip.xc8.assembler.debugging.DebugLevel>
+      </com.microchip.xc8>
+    </ToolchainSettings>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="dlms\include\apdu.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\bitarray.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\bytebuffer.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\ciphering.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\cipheringenums.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\client.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\converters.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\cosem.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\crc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\datainfo.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\date.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\dlms.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\dlmssettings.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\enums.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\errorcodes.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\gxaes.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\gxarray.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\gxdefine.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\gxget.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\gxignore.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\gxint.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\gxinvoke.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\gxkey.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\gxmd5.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\gxmem.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\gxobjects.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\gxserializer.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\gxset.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\gxsetignoremalloc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\gxsetmalloc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\gxsha1.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\gxsha256.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\gxvalueeventargs.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\helpers.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\lnparameters.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\message.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\notify.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\objectarray.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\parameters.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\replydata.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\server.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\serverevents.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\snparameters.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\include\variant.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\src\apdu.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\src\bitarray.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\src\bytebuffer.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\src\ciphering.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\src\client.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\src\converters.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\src\cosem.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\src\datainfo.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\src\date.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\src\dlms.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\src\dlmsSettings.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\src\gxaes.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\src\gxarray.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\src\gxget.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\src\gxinvoke.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\src\gxkey.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\src\gxmd5.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\src\gxobjects.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\src\gxserializer.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\src\gxset.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\src\gxsetignoremalloc.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\src\gxsetmalloc.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\src\gxsha1.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\src\gxsha256.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\src\gxvalueeventargs.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\src\helpers.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\src\message.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\src\notify.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\src\objectarray.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\src\parameters.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\src\replydata.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\src\server.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\src\serverevents.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dlms\src\variant.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="main.c">
+      <SubType>compile</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="dlms" />
+    <Folder Include="dlms\include" />
+    <Folder Include="dlms\src" />
+  </ItemGroup>
+  <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Compiler.targets" />
+</Project>

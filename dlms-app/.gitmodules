@@ -1,0 +1,6 @@
+[submodule "SDK"]
+	path = SDK
+	url = https://github.com/wirepas/wm-sdk-subghz.git
+[submodule "dlms_app/preamble_app/hdlc/yahdlc"]
+	path = dlms_app/preamble_app/hdlc/yahdlc
+	url = https://github.com/bang-olufsen/yahdlc.git
